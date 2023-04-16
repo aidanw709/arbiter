@@ -2,9 +2,10 @@ import json
 SYSCALL_TABLE = "syscalls_annotated.json"
 
 """
-CWE-467: Use of Inherently Dangerous Function
+CWE-476: Null Pointer Dereference
 
-This template tracks for null ptrs being passed as arguments which could lead to derefernece of a null ptr. 
+This template tracks for null ptrs being passed as arguments which could lead to 
+a dereference of a null ptr. 
 
 """
 def apply_constraint(state, expr, init_val, **kwargs):
