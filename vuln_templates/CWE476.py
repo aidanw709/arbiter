@@ -10,7 +10,7 @@ a dereference of a null ptr.
 """
 def apply_constraint(state, expr, init_val, **kwargs):
     if expr.value is None:
-        return 
+        return state.solver.add(False)
     return
 
 def parse_syscalls(syscall_table, return_filter=None):

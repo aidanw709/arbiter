@@ -1,5 +1,26 @@
 #!/bin/bash
 
+# This script runs all of the vulnerability templates in vuln_templates
+# The only inputs are a path to the binary and a directory to dump the logs
+#
+#
+# The log directory will have new paths implemented. A directory will be created
+# with the binary name and then a new directory for each CWE. 
+#
+# Tree view:
+# log_dir
+#   |
+#   |-- binary_name
+#       |
+#       |-- CWE###
+#           |
+#           |-- log files
+#
+# Example Command
+# ./run_all_vuln_templates.sh path/to/binary logs
+#
+
+
 BINARY=$1
 TEMPLATE_DIR='vuln_templates'
 LOG_DIR=$2
