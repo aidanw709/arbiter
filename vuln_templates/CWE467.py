@@ -1,17 +1,16 @@
-#TODO Impliment
+#Incomplete as it is unable to be implimented in arbiter. I didn't realize till 
+#some work had been completed that sizeof is not a function. 
 
 def apply_constraint(state, expr, init_val, **kwargs):
     return
 
 
 def specify_sinks():
-    maps = {'sizeof': ['n']}
-    return maps
+    return {'sizeof': ['n']}
 
 
 def specify_sources():
-    checkpoints = {}
-    return checkpoints
+    return {}
 
 
 def save_results(reports):

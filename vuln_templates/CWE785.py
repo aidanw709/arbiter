@@ -1,17 +1,18 @@
-#TODO Impliment
+
 
 def apply_constraint(state, expr, init_val, **kwargs):
+    if expr.size() != 2080:
+        state.solver.add(expr==0)
     return
 
 
 def specify_sinks():
-    maps = {'srand': ['n']}
+    maps = {'PathAppend': ['n','c']}
     return maps
 
 
 def specify_sources():
-    checkpoints = {'time': 0}
-    return checkpoints
+    return {}
 
 
 def save_results(reports):

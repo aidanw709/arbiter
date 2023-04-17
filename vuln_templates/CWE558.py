@@ -1,8 +1,5 @@
 def apply_constraint(state, expr, init_val, **kwargs):
-    addr = state.solver.eval(expr, cast_to=int)
-    if state.project.loader.find_section_containing(addr) is not None:
-        # Force an unsat error
-        state.solver.add(expr==0)
+    state.solver.add(expr==0)
     return
 
 

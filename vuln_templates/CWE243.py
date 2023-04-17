@@ -1,17 +1,15 @@
-#TODO Impliment
-
 def apply_constraint(state, expr, init_val, **kwargs):
-    
+    state.solver.add(expr==0)
     return
 
 
 def specify_sinks():
-    maps = {'fgets': ['']}
+    maps = {'fgets': ['n']}
     return maps
 
 
 def specify_sources():
-    checkpoints = {'chroot': 'c'}
+    checkpoints = {'chroot': 1}
     return checkpoints
 
 

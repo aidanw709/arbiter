@@ -13,6 +13,7 @@ COPY vuln_templates /home/test/vuln_templates
 COPY setup.py /home/test/setup.py
 COPY README.md /home/test/
 COPY run_all_vuln_templates.sh /home/test/
+COPY examples /home/test/examples
 RUN chown -R test:test /home/test/
 USER test
 RUN pip3 install --user angr python-json-logger
