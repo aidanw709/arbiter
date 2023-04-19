@@ -1,5 +1,7 @@
 def apply_constraint(state, expr, init_val, **kwargs):
-    state.solver.add(expr==0)
+    if state.project.loader.find_symbol("chdir") is None:
+        # Force an unsat error
+        state.solver.add(expr==0)
     return
 
 
@@ -9,7 +11,7 @@ def specify_sinks():
 
 
 def specify_sources():
-    checkpoints = {'chroot': 1}
+    checkpoints = {'chroot': 0}
     return checkpoints
 
 

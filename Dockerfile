@@ -1,8 +1,7 @@
 FROM ubuntu:20.04
 
 RUN dpkg --add-architecture i386
-RUN apt update && apt -y upgrade
-RUN apt install -y python3-dev python3-pip build-essential sudo
+RUN apt-get update && apt-get -y upgrade && apt-get install -y python3-dev python3-pip build-essential sudo
 RUN update-alternatives --install /usr/bin/python python /usr/bin/python3 10
 
 RUN useradd -m test && adduser test sudo
@@ -14,6 +13,7 @@ COPY setup.py /home/test/setup.py
 COPY README.md /home/test/
 COPY run_all_vuln_templates.sh /home/test/
 COPY examples /home/test/examples
+COPY evaluation /home/test/evaluation
 RUN chown -R test:test /home/test/
 USER test
 RUN pip3 install --user angr python-json-logger
