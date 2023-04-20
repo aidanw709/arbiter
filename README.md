@@ -40,14 +40,36 @@ If you use Arbiter in a scientific publication, we would appreciate citations us
 
 
 # Installation
+Note: Run if you intend to run outside of a docker image otherwise you can skip this step  
 
-`python setup.py build && python setup.py install`
+`sudo python setup.py build && python setup.py install`
 
 
 # Docker image
 
+Note: This program was executed using the ubuntu subsytem for windows  
+
+
 `docker pull 4rbit3r/arbiter:latest`
 
+The coommand below will build and start the docker image  
+
+`make run`
+
+# Running Arbiter
+The following commands will work both in the docker image or if you are running outside of a container with the proper install   
+
+
+
+The command below will run all vuln templates against a given binary and save the logs  
+
+`./runall_all_vuln_templates.sh target_binary ./logs`  
+
+
+`python ./vuln_templates/run_aribter.py -f vuln_template -t target`  
+
+
+Note: This is the simpliest way to run arbiter. Passing -h will show other arguements
 
 # Arbiter examples
 
