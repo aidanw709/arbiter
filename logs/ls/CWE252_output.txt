@@ -1,0 +1,11 @@
+WARNING | 2023-03-03 08:22:11,294 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+Traceback (most recent call last):
+  File "vuln_templates/run_arbiter.py", line 125, in <module>
+    main(template, target)
+  File "vuln_templates/run_arbiter.py", line 45, in main
+    sink_map = template.specify_sinks()
+  File "/home/itenpn/SECURITY/arbiter/vuln_templates/CWE252.py", line 44, in specify_sinks
+    maps, _ = parse_syscalls(SYSCALL_TABLE, return_filter=-1)
+  File "/home/itenpn/SECURITY/arbiter/vuln_templates/CWE252.py", line 12, in parse_syscalls
+    with open(syscall_table) as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'syscalls_annotated.json'

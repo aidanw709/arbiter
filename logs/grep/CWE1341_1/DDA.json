@@ -1,0 +1,27 @@
+{
+  "identified_functions": 3,
+  "4214288": {
+    "sink_count": 1,
+    "cfg_creation": 4,
+    "ddg_creation": 7,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4305872": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4347776": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  }
+}

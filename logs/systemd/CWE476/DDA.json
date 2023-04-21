@@ -1,0 +1,213 @@
+{
+  "identified_functions": 30,
+  "4434768": {
+    "sink_count": 1,
+    "cfg_creation": 15,
+    "ddg_creation": 20,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4447872": {
+    "sink_count": 1,
+    "cfg_creation": 30,
+    "ddg_creation": 114,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4471008": {
+    "sink_count": 1,
+    "cfg_creation": 20,
+    "ddg_creation": 49,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4500576": {
+    "sink_count": 1,
+    "cfg_creation": 177,
+    "ddg_creation": 23,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4574832": {
+    "sink_count": 1,
+    "cfg_creation": 3,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4587488": {
+    "sink_count": 1,
+    "cfg_creation": 3,
+    "ddg_creation": 39,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4669128": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4694080": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4704976": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4821888": {
+    "sink_count": 1,
+    "cfg_creation": 4,
+    "ddg_creation": 6,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4835024": {
+    "sink_count": 1,
+    "cfg_creation": 2,
+    "ddg_creation": 3,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4855696": {
+    "sink_count": 1,
+    "cfg_creation": 140,
+    "ddg_creation": 42,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4877840": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4878000": {
+    "sink_count": 1,
+    "cfg_creation": 3,
+    "ddg_creation": 102,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4879424": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4883568": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4892640": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4904224": {
+    "sink_count": 1,
+    "cfg_creation": 2,
+    "ddg_creation": 3,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4918352": {
+    "sink_count": 1,
+    "cfg_creation": 7,
+    "ddg_creation": 9,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "5013792": {
+    "sink_count": 1,
+    "cfg_creation": 2,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "5035552": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5042864": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 10,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5069264": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5072384": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5074784": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5079200": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5120240": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5141888": {
+    "sink_count": 1,
+    "cfg_creation": 4,
+    "ddg_creation": 4,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5142912": {
+    "sink_count": 1,
+    "cfg_creation": 4,
+    "ddg_creation": 5,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "5152896": {
+    "sink_count": 1,
+    "cfg_creation": 13,
+    "ddg_creation": 32,
+    "cdg_creation": 0,
+    "constants": 1
+  }
+}

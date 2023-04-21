@@ -1,0 +1,19 @@
+{
+  "identified_functions": 2,
+  "4214272": {
+    "sink_count": 2,
+    "cfg_creation": 4,
+    "ddg_creation": 6,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4234080": {
+    "sink_count": 7,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  }
+}

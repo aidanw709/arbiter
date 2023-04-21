@@ -1,0 +1,107 @@
+{
+  "identified_functions": 12,
+  "4212768": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "expressions_tracked": 2,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4247312": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 0,
+    "expressions_tracked": 10,
+    "filtered_expressions": 10,
+    "sat_states": 10
+  },
+  "4251792": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 0,
+    "exploration_time": 1
+  },
+  "4252608": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 1,
+    "expressions_tracked": 10,
+    "filtered_expressions": 10,
+    "sat_states": 10
+  },
+  "4261504": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 0,
+    "exploration_time": 20
+  },
+  "4261712": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "exploration_time": 57,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4265536": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "exploration_time": 12,
+    "expressions_tracked": 25,
+    "filtered_expressions": 2,
+    "sat_states": 0
+  },
+  "4265792": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 4,
+    "expressions_tracked": 24,
+    "filtered_expressions": 2,
+    "sat_states": 2
+  },
+  "4266320": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 0,
+    "exploration_time": 0
+  },
+  "4266576": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 3,
+    "expressions_tracked": 24,
+    "filtered_expressions": 2,
+    "sat_states": 2
+  },
+  "4273088": {
+    "entry_state": 1,
+    "paths_found": 3,
+    "paths_timedout": 0,
+    "exploration_time": 52,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4275936": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 1,
+    "exploration_time": 361,
+    "expressions_tracked": 23,
+    "filtered_expressions": 23,
+    "sat_states": 0
+  }
+}

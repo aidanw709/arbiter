@@ -1,0 +1,107 @@
+{
+  "identified_functions": 13,
+  "4306880": {
+    "sink_count": 1,
+    "cfg_creation": 5,
+    "ddg_creation": 8,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 1
+  },
+  "4308528": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 1
+  },
+  "4310288": {
+    "sink_count": 1,
+    "cfg_creation": 5,
+    "ddg_creation": 12,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 1
+  },
+  "4310992": {
+    "sink_count": 1,
+    "cfg_creation": 5,
+    "ddg_creation": 12,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 1
+  },
+  "4332736": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4333056": {
+    "sink_count": 1,
+    "cfg_creation": 2,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4333088": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4333392": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4333456": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4336864": {
+    "sink_count": 1,
+    "cfg_creation": 5,
+    "ddg_creation": 11,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 1
+  },
+  "4338112": {
+    "sink_count": 3,
+    "cfg_creation": 7,
+    "ddg_creation": 19,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 2
+  },
+  "4341616": {
+    "sink_count": 6,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 4
+  },
+  "4343568": {
+    "sink_count": 2,
+    "cfg_creation": 6,
+    "ddg_creation": 10,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 2
+  }
+}

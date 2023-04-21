@@ -1,0 +1,35 @@
+{
+  "identified_functions": 4,
+  "4222288": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4241952": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4249376": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4256288": {
+    "sink_count": 2,
+    "cfg_creation": 14,
+    "ddg_creation": 49,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  }
+}

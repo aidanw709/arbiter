@@ -1,0 +1,57 @@
+{
+  "identified_functions": 7,
+  "4214272": {
+    "sink_count": 3,
+    "cfg_creation": 3,
+    "ddg_creation": 6,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4226672": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4229696": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0
+  },
+  "4237232": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4241952": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4260336": {
+    "sink_count": 1,
+    "cfg_creation": 12,
+    "ddg_creation": 42,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4285488": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  }
+}

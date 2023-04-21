@@ -1,0 +1,56 @@
+{
+  "identified_functions": 7,
+  "4215824": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 10,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4231408": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 0,
+    "exploration_time": 1
+  },
+  "4234208": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4239520": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4242064": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 5,
+    "expressions_tracked": 11,
+    "filtered_expressions": 11,
+    "sat_states": 0
+  },
+  "4252608": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4262352": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 1,
+    "exploration_time": 304
+  }
+}

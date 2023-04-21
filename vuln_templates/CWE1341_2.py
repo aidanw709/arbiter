@@ -1,4 +1,6 @@
 """
+Author: Nicholas Iten
+
 CWE-1341: Multiple Releases of Same Resource or Handle
 
 This template tracks the usage of sockets that are closed twice

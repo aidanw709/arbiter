@@ -1,0 +1,1913 @@
+WARNING | 2023-04-18 21:47:38,072 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+DEBUG   | 2023-04-18 21:47:38,088 | arbiter.master_chief.sa_recon | Creating CFG
+Identifying functions:   0%|          | 0/1702 [00:00<?, ?it/s]INFO    | 2023-04-18 21:47:48,082 | arbiter.master_chief.sa_recon | Starting recon of 0x404000
+INFO    | 2023-04-18 21:47:48,082 | arbiter.master_chief.sa_recon | Starting recon of 0x404020
+INFO    | 2023-04-18 21:47:48,082 | arbiter.master_chief.sa_recon | Starting recon of 0x40402d
+INFO    | 2023-04-18 21:47:48,082 | arbiter.master_chief.sa_recon | Starting recon of 0x404030
+INFO    | 2023-04-18 21:47:48,082 | arbiter.master_chief.sa_recon | Starting recon of 0x40403f
+INFO    | 2023-04-18 21:47:48,082 | arbiter.master_chief.sa_recon | Starting recon of 0x404040
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x40404f
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x404050
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x40405f
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x404060
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x40406f
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x404070
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x40407f
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x404080
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x40408f
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x404090
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x40409f
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x4040a0
+INFO    | 2023-04-18 21:47:48,083 | arbiter.master_chief.sa_recon | Starting recon of 0x4040af
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040b0
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040bf
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040c0
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040cf
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040d0
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040df
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040e0
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040ef
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040f0
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x4040ff
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x404100
+INFO    | 2023-04-18 21:47:48,084 | arbiter.master_chief.sa_recon | Starting recon of 0x40410f
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x404110
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x40411f
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x404120
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x40412f
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x404130
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x40413f
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x404140
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x40414f
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x404150
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x40415f
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x404160
+INFO    | 2023-04-18 21:47:48,085 | arbiter.master_chief.sa_recon | Starting recon of 0x40416f
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x404170
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x40417f
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x404180
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x40418f
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x404190
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x40419f
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x4041a0
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x4041af
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x4041b0
+INFO    | 2023-04-18 21:47:48,086 | arbiter.master_chief.sa_recon | Starting recon of 0x4041bf
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041c0
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041cf
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041d0
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041df
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041e0
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041ef
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041f0
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4041ff
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x404200
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40420f
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x404210
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40421f
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x404220
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40422f
+INFO    | 2023-04-18 21:47:48,087 | arbiter.master_chief.sa_recon | Starting recon of 0x404230
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x40423f
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x404240
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x40424f
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x404250
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x40425f
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x404260
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x40426f
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x404270
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x40427f
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x404280
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x40428f
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x404290
+INFO    | 2023-04-18 21:47:48,088 | arbiter.master_chief.sa_recon | Starting recon of 0x40429f
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042a0
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042af
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042b0
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042bf
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042c0
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042cf
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042d0
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042df
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042e0
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042ef
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042f0
+INFO    | 2023-04-18 21:47:48,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4042ff
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x404300
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40430f
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x404310
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40431f
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x404320
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40432f
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x404330
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40433f
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x404340
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40434f
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x404350
+INFO    | 2023-04-18 21:47:48,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40435f
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x404360
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x40436f
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x404370
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x40437f
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x404380
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x40438f
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x404390
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x40439f
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4043a0
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4043af
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4043b0
+INFO    | 2023-04-18 21:47:48,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4043bf
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043c0
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043cf
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043d0
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043df
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043e0
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043ef
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043f0
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x4043ff
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x404400
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x40440f
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x404410
+INFO    | 2023-04-18 21:47:48,092 | arbiter.master_chief.sa_recon | Starting recon of 0x40441f
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x404420
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40442f
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x404430
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40443f
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x404440
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40444f
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x404450
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40445f
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x404460
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40446f
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x404470
+INFO    | 2023-04-18 21:47:48,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40447f
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x404480
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40448f
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x404490
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40449f
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044a0
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044af
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044b0
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044bf
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044c0
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044cf
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044d0
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044df
+INFO    | 2023-04-18 21:47:48,094 | arbiter.master_chief.sa_recon | Starting recon of 0x4044e0
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x4044ef
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x4044f0
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x4044ff
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x404500
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x40450f
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x404510
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x40451f
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x404520
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x40452f
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x404530
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x40453f
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x404540
+INFO    | 2023-04-18 21:47:48,095 | arbiter.master_chief.sa_recon | Starting recon of 0x40454f
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x404550
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40455f
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x404560
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40456f
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x404570
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40457f
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x404580
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40458f
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x404590
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40459f
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x4045a0
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x4045af
+INFO    | 2023-04-18 21:47:48,096 | arbiter.master_chief.sa_recon | Starting recon of 0x4045b0
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045bf
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045c0
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045cf
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045d0
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045df
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045e0
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045ef
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045f0
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x4045ff
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x404600
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40460f
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x404610
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40461f
+INFO    | 2023-04-18 21:47:48,097 | arbiter.master_chief.sa_recon | Starting recon of 0x404620
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40462f
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x404630
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40463f
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x404640
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40464f
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x404650
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40465f
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x404660
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40466f
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x404670
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40467f
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x404680
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40468f
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x404690
+INFO    | 2023-04-18 21:47:48,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40469f
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x4046a0
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x4046b0
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x4046c0
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x4046d0
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x4046e0
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x4046f0
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x404700
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x404710
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x404720
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x404730
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x404740
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x404750
+INFO    | 2023-04-18 21:47:48,099 | arbiter.master_chief.sa_recon | Starting recon of 0x404760
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404770
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404780
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404790
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x4047a0
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x4047b0
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x4047c0
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x4047d0
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x4047e0
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x4047f0
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404800
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404810
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404820
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404830
+INFO    | 2023-04-18 21:47:48,100 | arbiter.master_chief.sa_recon | Starting recon of 0x404840
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x404850
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x404860
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x404870
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x404880
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x404890
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x4048a0
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x4048b0
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x4048c0
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x4048d0
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x4048e0
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x4048f0
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x404900
+INFO    | 2023-04-18 21:47:48,101 | arbiter.master_chief.sa_recon | Starting recon of 0x404910
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404920
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404930
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404940
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404950
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404960
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404970
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404980
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x404990
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x4049a0
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x4049b0
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x4049c0
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x4049d0
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x4049e0
+INFO    | 2023-04-18 21:47:48,102 | arbiter.master_chief.sa_recon | Starting recon of 0x4049f0
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a00
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a10
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a20
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a30
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a40
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a50
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a60
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a70
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a80
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404a90
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404aa0
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404ab0
+INFO    | 2023-04-18 21:47:48,103 | arbiter.master_chief.sa_recon | Starting recon of 0x404ac0
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404ad0
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404ae0
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404af0
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b00
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b10
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b20
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b30
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b40
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b50
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b60
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b70
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b80
+INFO    | 2023-04-18 21:47:48,104 | arbiter.master_chief.sa_recon | Starting recon of 0x404b90
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404ba0
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404bb0
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404bc0
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404bd0
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404be0
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404bf0
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404c00
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404c10
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404c20
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404c30
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404c40
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404c50
+INFO    | 2023-04-18 21:47:48,105 | arbiter.master_chief.sa_recon | Starting recon of 0x404c60
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404c70
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404c80
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404c90
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404ca0
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404cb0
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404cc0
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404cd0
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404ce0
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404cf0
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404d00
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404d10
+INFO    | 2023-04-18 21:47:48,106 | arbiter.master_chief.sa_recon | Starting recon of 0x404d20
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x404e03
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x404e10
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x404fb7
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x4050ce
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x405668
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x4057c6
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x405bd9
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x4064c3
+INFO    | 2023-04-18 21:47:48,107 | arbiter.master_chief.sa_recon | Starting recon of 0x4064d0
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x4064fe
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x4064ff
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x406500
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x406521
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x406529
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x406562
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x406569
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x406570
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x4065a5
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x4065a9
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x4065b0
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x4065b9
+INFO    | 2023-04-18 21:47:48,108 | arbiter.master_chief.sa_recon | Starting recon of 0x4065c0
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x4065f0
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x406620
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x4067ba
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x4068b8
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x4068dd
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x40693d
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x4069c6
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x406dbb
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x406dc0
+INFO    | 2023-04-18 21:47:48,109 | arbiter.master_chief.sa_recon | Starting recon of 0x406f47
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x406fd6
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x4071b3
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x4071cf
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x4071de
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x40749e
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x407519
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x407520
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x407533
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x407540
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x40754f
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x407550
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x407571
+INFO    | 2023-04-18 21:47:48,110 | arbiter.master_chief.sa_recon | Starting recon of 0x407580
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40759b
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x4075b9
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x4075f3
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x4075fe
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x407609
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x407621
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x407630
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40763f
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x407645
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x407650
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x4076ab
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x4076e5
+INFO    | 2023-04-18 21:47:48,111 | arbiter.master_chief.sa_recon | Starting recon of 0x407755
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407764
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407770
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407849
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407850
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407980
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x4079b0
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407a20
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407a4c
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407a50
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407aae
+INFO    | 2023-04-18 21:47:48,112 | arbiter.master_chief.sa_recon | Starting recon of 0x407b00
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407b4c
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407b6b
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407b7d
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407b8e
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407b90
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407c09
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407d5c
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407da9
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407de3
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407e3c
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407e46
+INFO    | 2023-04-18 21:47:48,113 | arbiter.master_chief.sa_recon | Starting recon of 0x407e56
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407e96
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407eae
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407ec1
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407edc
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407ef1
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407f16
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407f37
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407fa2
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x407fb0
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40806f
+INFO    | 2023-04-18 21:47:48,114 | arbiter.master_chief.sa_recon | Starting recon of 0x4080e9
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40819a
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x4081d2
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x4082ad
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x4082d8
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x408311
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40834d
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x408385
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40839c
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x4083b1
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x4083cc
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x4083ef
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x4083fe
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x408415
+INFO    | 2023-04-18 21:47:48,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40845b
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x408460
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x408547
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x408586
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x4085ef
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x4086d9
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x408747
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40877a
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x4087bb
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x4087c8
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x4087e1
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x4087f2
+INFO    | 2023-04-18 21:47:48,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40885a
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40890b
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408918
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40892b
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408943
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408989
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x4089a5
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x4089b9
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408a49
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408a50
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408b0e
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408b42
+INFO    | 2023-04-18 21:47:48,117 | arbiter.master_chief.sa_recon | Starting recon of 0x408bad
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x408bba
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x408c07
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x408c36
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x408dec
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x408df0
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40912e
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x409234
+INFO    | 2023-04-18 21:47:48,118 | arbiter.master_chief.sa_recon | Starting recon of 0x4092bd
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x409562
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x409573
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x4095e8
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40963e
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x4096fc
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x409713
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x409766
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x409809
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40985b
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40986c
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x409889
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40a467
+INFO    | 2023-04-18 21:47:48,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40a470
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a4cb
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a516
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a55f
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a560
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a584
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a5c8
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a5d0
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a836
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a840
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a8c3
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a983
+INFO    | 2023-04-18 21:47:48,120 | arbiter.master_chief.sa_recon | Starting recon of 0x40a9d2
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40a9e0
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40aa8b
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40aaf1
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ab53
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ac99
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad1f
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad39
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad67
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad70
+INFO    | 2023-04-18 21:47:48,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ae31
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40af6a
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40aff9
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b028
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b0d7
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b0f3
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b25f
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b260
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b2e6
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b325
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b330
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b371
+INFO    | 2023-04-18 21:47:48,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40b380
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b3dc
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b3ea
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b3f6
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b400
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b439
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b441
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b450
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b48f
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b490
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b56b
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b601
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b616
+INFO    | 2023-04-18 21:47:48,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40b658
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b6bc
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b6ce
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b705
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b70d
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b72d
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b81c
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b88f
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b92e
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b968
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b9cf
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40b9de
+INFO    | 2023-04-18 21:47:48,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40ba0e
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40ba31
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40ba74
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bada
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40baea
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb27
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb30
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb64
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb70
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bbea
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bc98
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bd4d
+INFO    | 2023-04-18 21:47:48,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40bd7d
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40bda7
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40bddb
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40be1f
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40be8c
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40bec5
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40bf58
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40bfe7
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40c028
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40c05b
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40c098
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40c0bf
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40c0c8
+INFO    | 2023-04-18 21:47:48,126 | arbiter.master_chief.sa_recon | Starting recon of 0x40c105
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c133
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c142
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c16a
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c18f
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c198
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c1a0
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c299
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c2d4
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c2e0
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c3d5
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c44a
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c60f
+INFO    | 2023-04-18 21:47:48,127 | arbiter.master_chief.sa_recon | Starting recon of 0x40c68b
+INFO    | 2023-04-18 21:47:48,128 | arbiter.master_chief.sa_recon | Starting recon of 0x40c75b
+INFO    | 2023-04-18 21:47:48,128 | arbiter.master_chief.sa_recon | Starting recon of 0x40c847
+INFO    | 2023-04-18 21:47:48,128 | arbiter.master_chief.sa_recon | Starting recon of 0x40c850
+INFO    | 2023-04-18 21:47:48,128 | arbiter.master_chief.sa_recon | Starting recon of 0x40c859
+INFO    | 2023-04-18 21:47:48,128 | arbiter.master_chief.sa_recon | Starting recon of 0x40c860
+INFO    | 2023-04-18 21:47:48,128 | arbiter.master_chief.sa_recon | Starting recon of 0x40ca1f
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dafd
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dbc2
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dbe8
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dc1c
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dcc5
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dcf4
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dd06
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dda5
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40ddd4
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40dde6
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40de7d
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40deac
+INFO    | 2023-04-18 21:47:48,129 | arbiter.master_chief.sa_recon | Starting recon of 0x40debe
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40df64
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40df94
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e04c
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e11c
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e1dc
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e29c
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e35c
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e484
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e4b4
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e5b4
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e6ec
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e739
+INFO    | 2023-04-18 21:47:48,130 | arbiter.master_chief.sa_recon | Starting recon of 0x40e768
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40e78a
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40e7b8
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40e7d7
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40e80c
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40e81f
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40e924
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40ea01
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40ea6b
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40ea8b
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40eaab
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40eacb
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40eae6
+INFO    | 2023-04-18 21:47:48,131 | arbiter.master_chief.sa_recon | Starting recon of 0x40eb32
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ec22
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ec5b
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ec6c
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ec77
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ec91
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40eca9
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ecc1
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ecd9
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ecf1
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed09
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed21
+INFO    | 2023-04-18 21:47:48,132 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed39
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed51
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed69
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed82
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed99
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40edb1
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40edc9
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40ede1
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40ee0b
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40ee61
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40eea6
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40f8b9
+INFO    | 2023-04-18 21:47:48,133 | arbiter.master_chief.sa_recon | Starting recon of 0x40f8ff
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40f943
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fa13
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fab2
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fac0
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fad1
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fae0
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40faf8
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb00
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb07
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb10
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb2b
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb35
+INFO    | 2023-04-18 21:47:48,134 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb40
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb84
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x40fb9e
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x40fba0
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x40fc05
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x41034d
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x410350
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x4103b4
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x410433
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x4104bb
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x410553
+INFO    | 2023-04-18 21:47:48,135 | arbiter.master_chief.sa_recon | Starting recon of 0x410560
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x4105ad
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410624
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x41063b
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x41064a
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410650
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x4106ee
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x4106f7
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410709
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410710
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410785
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410811
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410822
+INFO    | 2023-04-18 21:47:48,136 | arbiter.master_chief.sa_recon | Starting recon of 0x410834
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410840
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x4108ae
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x4108b6
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x4108df
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410a61
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410ae1
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410c22
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410c3e
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410c4e
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410c6c
+INFO    | 2023-04-18 21:47:48,137 | arbiter.master_chief.sa_recon | Starting recon of 0x410c99
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410cb9
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410d74
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410d80
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410e9f
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410eaf
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410ede
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410f78
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x410fcf
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x41107b
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x4110de
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x4110e0
+INFO    | 2023-04-18 21:47:48,138 | arbiter.master_chief.sa_recon | Starting recon of 0x411136
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4111ad
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4111d4
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4111ee
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x411201
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x411257
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x411260
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4112cd
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4112e3
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4112f0
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x41134e
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4113c7
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x4113fb
+INFO    | 2023-04-18 21:47:48,139 | arbiter.master_chief.sa_recon | Starting recon of 0x411418
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411420
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411469
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x4114f8
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411500
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411523
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411555
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411560
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411565
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411570
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411600
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x4116fd
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x411700
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x41170e
+INFO    | 2023-04-18 21:47:48,140 | arbiter.master_chief.sa_recon | Starting recon of 0x41175f
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x411763
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x411770
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x41177c
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x411780
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x41178c
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x411797
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x41183a
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x411840
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x41187a
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x4118a8
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x4118ba
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x4118c0
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x4118d8
+INFO    | 2023-04-18 21:47:48,141 | arbiter.master_chief.sa_recon | Starting recon of 0x4118e0
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x4118ec
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x4118f0
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411949
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411950
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411999
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x4119d5
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411a84
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411a90
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411ac0
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411af1
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411bab
+INFO    | 2023-04-18 21:47:48,142 | arbiter.master_chief.sa_recon | Starting recon of 0x411bb0
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411d8a
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411df5
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411e0a
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411e1c
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411e5c
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411e60
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411e8e
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411f9d
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411fe6
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x411ff0
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x4120d2
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x4120fb
+INFO    | 2023-04-18 21:47:48,143 | arbiter.master_chief.sa_recon | Starting recon of 0x41210f
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x4121ab
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x4121b0
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x4121e3
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x41231f
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x412320
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x412464
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x4124a3
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x4124e2
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x41264f
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x4126fd
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x41273f
+INFO    | 2023-04-18 21:47:48,144 | arbiter.master_chief.sa_recon | Starting recon of 0x412740
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x4129b4
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x412c75
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x412d0b
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x412f5a
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x413388
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x413390
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x4133ee
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x4134b3
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x4135f9
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x41369f
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x4136ef
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x413721
+INFO    | 2023-04-18 21:47:48,145 | arbiter.master_chief.sa_recon | Starting recon of 0x41375b
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x4137c8
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x4137d0
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x413902
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x41398f
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x4139d8
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x413a65
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x413b33
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x413ba8
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x413bbc
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x413be6
+INFO    | 2023-04-18 21:47:48,146 | arbiter.master_chief.sa_recon | Starting recon of 0x413c5e
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413c8d
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413c9b
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413ccd
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413cdc
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413d15
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413d2a
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413ea5
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413efc
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413f12
+INFO    | 2023-04-18 21:47:48,147 | arbiter.master_chief.sa_recon | Starting recon of 0x413f20
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x413fd8
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x414077
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x41408b
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x4140bd
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x414142
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x414175
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x414196
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x4141cf
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x414203
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x41422d
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x4143a5
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x4143b8
+INFO    | 2023-04-18 21:47:48,148 | arbiter.master_chief.sa_recon | Starting recon of 0x4143c0
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x41448c
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x4144a2
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x4144b1
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x41455b
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x41456d
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x4145a5
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x4145b0
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x414675
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x414729
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x4147e3
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x414817
+INFO    | 2023-04-18 21:47:48,149 | arbiter.master_chief.sa_recon | Starting recon of 0x41482c
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x4148c4
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x41490b
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414910
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414993
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414a3f
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414b06
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414b3f
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414b4c
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414b99
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414ba0
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414d25
+INFO    | 2023-04-18 21:47:48,150 | arbiter.master_chief.sa_recon | Starting recon of 0x414d99
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415025
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415131
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x4151a9
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x4154dc
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x4157aa
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x4157c6
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x4157f7
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x41589a
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415a44
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415ab5
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415bb1
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415c3b
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415cb9
+INFO    | 2023-04-18 21:47:48,151 | arbiter.master_chief.sa_recon | Starting recon of 0x415cdf
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x415e3f
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x415e7b
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x416062
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x416070
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x416116
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x4163ed
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x416448
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x416478
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x41654a
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x41655a
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x416593
+INFO    | 2023-04-18 21:47:48,152 | arbiter.master_chief.sa_recon | Starting recon of 0x4165be
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x4165de
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x41663e
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x4166e2
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x416734
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x416748
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x41679a
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x4167f4
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x416862
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x4168c2
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x416902
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x416919
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x416979
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x416998
+INFO    | 2023-04-18 21:47:48,153 | arbiter.master_chief.sa_recon | Starting recon of 0x4169ec
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416a08
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416a28
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416a4e
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416b46
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416da5
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416f6e
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416f70
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x416fe6
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x417054
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x41708b
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x41709f
+INFO    | 2023-04-18 21:47:48,154 | arbiter.master_chief.sa_recon | Starting recon of 0x4170db
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x41713a
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x417152
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x41716a
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x417182
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x41719a
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x4171b2
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x4177a2
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x4177d2
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x4177ea
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x417802
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x41781c
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x41783f
+INFO    | 2023-04-18 21:47:48,155 | arbiter.master_chief.sa_recon | Starting recon of 0x41785b
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417afb
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417bb0
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417cd9
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417d08
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417d1d
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417e99
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417f6b
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417fad
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417fca
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x417fdc
+INFO    | 2023-04-18 21:47:48,156 | arbiter.master_chief.sa_recon | Starting recon of 0x418093
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x4180af
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x4180dc
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x4180fd
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x4182f6
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x418316
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x418362
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x418404
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x418475
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x418522
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x418530
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x4185a5
+INFO    | 2023-04-18 21:47:48,157 | arbiter.master_chief.sa_recon | Starting recon of 0x418618
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x4186b3
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x4186ca
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x418730
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x41873d
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x418740
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x41874c
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x418750
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x41875c
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x418760
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x4188cb
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x4188d5
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x41894b
+INFO    | 2023-04-18 21:47:48,158 | arbiter.master_chief.sa_recon | Starting recon of 0x418950
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418aa5
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418d1d
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418e38
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418e6d
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418e7b
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418ed1
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418ee8
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418f1c
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418f3c
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418f55
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418f6a
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418fcc
+INFO    | 2023-04-18 21:47:48,159 | arbiter.master_chief.sa_recon | Starting recon of 0x418fd0
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x41911d
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x4192c9
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x419326
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x419431
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x419626
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x419648
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x4196bc
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x41986a
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x4198ab
+INFO    | 2023-04-18 21:47:48,160 | arbiter.master_chief.sa_recon | Starting recon of 0x419965
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419a2b
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419b0e
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419b22
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419b33
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419c2a
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419cee
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419d5b
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419d72
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419df6
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419e00
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419e09
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419e10
+INFO    | 2023-04-18 21:47:48,161 | arbiter.master_chief.sa_recon | Starting recon of 0x419e1e
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x419e20
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x419f0b
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x419fa9
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a041
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a06c
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a0a6
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a0b0
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a13f
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a140
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a184
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a2ad
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a2b0
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a384
+INFO    | 2023-04-18 21:47:48,162 | arbiter.master_chief.sa_recon | Starting recon of 0x41a3ae
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a3b0
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a3e7
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a3f0
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a3f9
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a400
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a417
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a420
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a437
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a440
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a449
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a450
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a4a2
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a4b8
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a50f
+INFO    | 2023-04-18 21:47:48,163 | arbiter.master_chief.sa_recon | Starting recon of 0x41a521
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a535
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a540
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a586
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a621
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a6f7
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a71d
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a743
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a7b4
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a7c0
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a7f0
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a8b8
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a905
+INFO    | 2023-04-18 21:47:48,164 | arbiter.master_chief.sa_recon | Starting recon of 0x41a9d3
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41a9e0
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41a9ee
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41a9f0
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41aaae
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41aadb
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41aae0
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41ab51
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41ab85
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41ab9a
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41aba0
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41ac64
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41aca3
+INFO    | 2023-04-18 21:47:48,165 | arbiter.master_chief.sa_recon | Starting recon of 0x41acdc
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41ad8a
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41addd
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41adf1
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41ae11
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41ae22
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41ae43
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41ae50
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41af12
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41af43
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41affb
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41b011
+INFO    | 2023-04-18 21:47:48,166 | arbiter.master_chief.sa_recon | Starting recon of 0x41b049
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b05a
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b07f
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b095
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b104
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b12e
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b15b
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b1af
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b1b0
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b208
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b246
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b2f1
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b373
+INFO    | 2023-04-18 21:47:48,167 | arbiter.master_chief.sa_recon | Starting recon of 0x41b383
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b39f
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b3c2
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b3d0
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b449
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b485
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b536
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b58e
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b611
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b623
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b643
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b66b
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b670
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b67c
+INFO    | 2023-04-18 21:47:48,168 | arbiter.master_chief.sa_recon | Starting recon of 0x41b680
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b694
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b6a0
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b6ab
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b6b0
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b73c
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b76e
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b7a3
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b7b1
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b7c0
+DEBUG   | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Adding target function sub_41b7c0:0x41b7c0
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b7e8
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b814
+INFO    | 2023-04-18 21:47:48,169 | arbiter.master_chief.sa_recon | Starting recon of 0x41b8fd
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b92b
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b930
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b939
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b940
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b949
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b950
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b959
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b960
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b975
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b9b9
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b9c0
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41b9d7
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41ba27
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41ba30
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41ba5e
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41bb36
+INFO    | 2023-04-18 21:47:48,170 | arbiter.master_chief.sa_recon | Starting recon of 0x41bb87
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bb90
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bbc7
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bbf2
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bc03
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bc10
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bc49
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bc5c
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bc60
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bc94
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bcb4
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bcd2
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bce2
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bcf0
+INFO    | 2023-04-18 21:47:48,171 | arbiter.master_chief.sa_recon | Starting recon of 0x41bd12
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41bd41
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41bd50
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41bd9d
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41bda5
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41bdcc
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41be01
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41be10
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41be23
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41be30
+DEBUG   | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Adding target function sub_41be30:0x41be30
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41bf55
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41bffd
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41c034
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41c0af
+INFO    | 2023-04-18 21:47:48,172 | arbiter.master_chief.sa_recon | Starting recon of 0x41c0c7
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c0d0
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c0e9
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c16c
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c194
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c1a0
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c1ca
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c1e7
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c286
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c290
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c35d
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c3b4
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c3d6
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c4bc
+INFO    | 2023-04-18 21:47:48,173 | arbiter.master_chief.sa_recon | Starting recon of 0x41c4cb
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c4da
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c50f
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c510
+DEBUG   | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Adding target function sub_41c510:0x41c510
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c60a
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c62e
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c731
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c766
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c7ae
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c7cc
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c7d0
+DEBUG   | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Adding target function sub_41c7d0:0x41c7d0
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c834
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c8b9
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c8de
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41c9e1
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41ca16
+INFO    | 2023-04-18 21:47:48,174 | arbiter.master_chief.sa_recon | Starting recon of 0x41ca3d
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41ca58
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41ca7c
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41ca80
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cae3
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cc0e
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cc2e
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cc56
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cc7e
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cc9c
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cca0
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41ccb2
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41ccc9
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41ccd0
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cd0f
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cd26
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cd30
+INFO    | 2023-04-18 21:47:48,175 | arbiter.master_chief.sa_recon | Starting recon of 0x41cd4e
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41cd50
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41cd75
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41cd80
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41cdff
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41cf85
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41cf92
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d017
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d0c3
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d105
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d126
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d148
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d168
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d18e
+INFO    | 2023-04-18 21:47:48,176 | arbiter.master_chief.sa_recon | Starting recon of 0x41d1ae
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d1da
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d44a
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d450
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d47a
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d4a1
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d515
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d553
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d571
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d584
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d59c
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d5a0
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d5e7
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d616
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d620
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d682
+INFO    | 2023-04-18 21:47:48,177 | arbiter.master_chief.sa_recon | Starting recon of 0x41d6c1
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41d6fd
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41d700
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41d79a
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41d97e
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41dae3
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41db85
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41dfd1
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41e00d
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41e02f
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41e03e
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41e04b
+INFO    | 2023-04-18 21:47:48,179 | arbiter.master_chief.sa_recon | Starting recon of 0x41e1c8
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e1e4
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e2f4
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e3da
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e4ca
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e4dd
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e567
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e58f
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e5d5
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e5f6
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e65a
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e897
+INFO    | 2023-04-18 21:47:48,180 | arbiter.master_chief.sa_recon | Starting recon of 0x41e946
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41eb2b
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41eb30
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41eca4
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ecce
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ecd0
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed09
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed10
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed25
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed30
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed45
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed50
+INFO    | 2023-04-18 21:47:48,181 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed89
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41ed90
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41eda9
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41edb0
+Identifying functions:  73%|███████▎  | 1244/1702 [00:00<00:00, 12430.26it/s]INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41edf5
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41ee00
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41ee78
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41ee80
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41ef41
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41ef50
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41f039
+INFO    | 2023-04-18 21:47:48,182 | arbiter.master_chief.sa_recon | Starting recon of 0x41f040
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f0d3
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f0e0
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f26c
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f296
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f2a0
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f42b
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f456
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f460
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f5cf
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f5f6
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f600
+INFO    | 2023-04-18 21:47:48,183 | arbiter.master_chief.sa_recon | Starting recon of 0x41f76f
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41f796
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41f7a0
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41f812
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41f820
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41f88e
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41f890
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41fa3e
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41fa66
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41fa84
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41fa90
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41fc4d
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41fc76
+INFO    | 2023-04-18 21:47:48,184 | arbiter.master_chief.sa_recon | Starting recon of 0x41fc94
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x41fca0
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x41fe86
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x41febb
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x41fec0
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x420094
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x4200c3
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x4200d0
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x420295
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x4202c3
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x4202d0
+INFO    | 2023-04-18 21:47:48,185 | arbiter.master_chief.sa_recon | Starting recon of 0x420496
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4204cb
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4204d0
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x42054a
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x420550
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4205f5
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x420600
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4206a1
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4206b0
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4208a6
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4208db
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x4208e0
+INFO    | 2023-04-18 21:47:48,186 | arbiter.master_chief.sa_recon | Starting recon of 0x420aea
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420b1b
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420b20
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420cab
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420cd6
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420ce0
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420e4f
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420e76
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x420e80
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x42100c
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x421036
+INFO    | 2023-04-18 21:47:48,187 | arbiter.master_chief.sa_recon | Starting recon of 0x421040
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x4211af
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x4211d6
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x4211e0
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x421237
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x42124e
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x421250
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x421282
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x421290
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x4212b4
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x4212e6
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x4212f0
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x4213c3
+INFO    | 2023-04-18 21:47:48,188 | arbiter.master_chief.sa_recon | Starting recon of 0x42145d
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x42147e
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x4214de
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x421519
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x4215a7
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x421604
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x42163e
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x4216b5
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x421751
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x421760
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x421780
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x4218dc
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x421a38
+INFO    | 2023-04-18 21:47:48,189 | arbiter.master_chief.sa_recon | Starting recon of 0x421a40
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421c13
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421c20
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421cbf
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421cc0
+DEBUG   | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Adding target function sub_421cc0:0x421cc0
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421cf9
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421d00
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421d3f
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421d4e
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421d50
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421da3
+INFO    | 2023-04-18 21:47:48,190 | arbiter.master_chief.sa_recon | Starting recon of 0x421dce
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421ded
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421dfe
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e00
+DEBUG   | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Adding target function sub_421e00:0x421e00
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e1e
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e20
+DEBUG   | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Adding target function sub_421e20:0x421e20
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e3e
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e40
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e66
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e7e
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421e80
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421ebf
+INFO    | 2023-04-18 21:47:48,191 | arbiter.master_chief.sa_recon | Starting recon of 0x421ecc
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421ed7
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421ee0
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421f06
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421f10
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421f42
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421f50
+DEBUG   | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Adding target function sub_421f50:0x421f50
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421f8d
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421f90
+DEBUG   | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Adding target function sub_421f90:0x421f90
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421fce
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x421fd0
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x42200b
+INFO    | 2023-04-18 21:47:48,192 | arbiter.master_chief.sa_recon | Starting recon of 0x422010
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x4220c5
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x4220db
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x42264e
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x42267b
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x42268b
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x4226a5
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x42270e
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x422729
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x422777
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x422780
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x4227be
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x4227c0
+INFO    | 2023-04-18 21:47:48,193 | arbiter.master_chief.sa_recon | Starting recon of 0x4227c5
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x4227d0
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x4227e6
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x4227f0
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422800
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422811
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422822
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422830
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422841
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422850
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422860
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x42286e
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422870
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x422896
+INFO    | 2023-04-18 21:47:48,194 | arbiter.master_chief.sa_recon | Starting recon of 0x4228a0
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x42290f
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x42296b
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x4229b4
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422a23
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422a31
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422a41
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422a52
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422a60
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422b4c
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422b55
+INFO    | 2023-04-18 21:47:48,195 | arbiter.master_chief.sa_recon | Starting recon of 0x422b60
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422bc5
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422bef
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422c0e
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422c10
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422c5c
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422c65
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422ca1
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422cbb
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422cd1
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422ce0
+DEBUG   | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Adding target function sub_422ce0:0x422ce0
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422d71
+INFO    | 2023-04-18 21:47:48,196 | arbiter.master_chief.sa_recon | Starting recon of 0x422de7
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x422e43
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x422e6f
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x422e7f
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x422e80
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x422f54
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x423002
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x42301d
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x423053
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x423071
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x423088
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x4230cb
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x423105
+INFO    | 2023-04-18 21:47:48,197 | arbiter.master_chief.sa_recon | Starting recon of 0x423132
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x423162
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x4231b1
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x4231c0
+DEBUG   | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Adding target function sub_4231c0:0x4231c0
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x4232da
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x4234e2
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x423503
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x4235e3
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x42360e
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x42361a
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x42363a
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x423674
+INFO    | 2023-04-18 21:47:48,198 | arbiter.master_chief.sa_recon | Starting recon of 0x42368f
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x42372e
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423764
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423887
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x4239e1
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x4239f2
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423a3d
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423aeb
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423b36
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423b53
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423b81
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423b9f
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423bae
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423c53
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423d87
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423dfc
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423ebe
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423f68
+INFO    | 2023-04-18 21:47:48,199 | arbiter.master_chief.sa_recon | Starting recon of 0x423f70
+DEBUG   | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Adding target function sub_423f70:0x423f70
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424122
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x42423e
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424313
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424332
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x42438b
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x4243e4
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x4243f2
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424403
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x42443f
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x42445b
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424484
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x42449d
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x4244a8
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424510
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424535
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424574
+INFO    | 2023-04-18 21:47:48,200 | arbiter.master_chief.sa_recon | Starting recon of 0x424644
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x424651
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x42468a
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x4246aa
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x4246ba
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x4246ee
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x42470b
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x424710
+DEBUG   | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Adding target function sub_424710:0x424710
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x42476e
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x42484c
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x42490f
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x42494b
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x424989
+INFO    | 2023-04-18 21:47:48,201 | arbiter.master_chief.sa_recon | Starting recon of 0x424a5a
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x424b99
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x424bca
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x424bed
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x424e14
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x42503b
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425040
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425069
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425070
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x4250d4
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425155
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425169
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x4251ea
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425207
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425223
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x42525d
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425286
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x425290
+INFO    | 2023-04-18 21:47:48,202 | arbiter.master_chief.sa_recon | Starting recon of 0x4252b2
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x4252c0
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x425327
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x42534f
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x425350
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x425395
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x4253a0
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x42544c
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x42546d
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x425470
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x42551f
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x42553d
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x425540
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x42561d
+INFO    | 2023-04-18 21:47:48,203 | arbiter.master_chief.sa_recon | Starting recon of 0x425631
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425654
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425665
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425670
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425696
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x4256a7
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x4256b0
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x4256c9
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425719
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425749
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425750
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425776
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425780
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x4257c3
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x4257e5
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x4257f0
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425804
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425810
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x42583f
+INFO    | 2023-04-18 21:47:48,204 | arbiter.master_chief.sa_recon | Starting recon of 0x425855
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425892
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x4258a0
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x4258c8
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x4258fd
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425900
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425925
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425930
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425978
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x4259a6
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x4259b0
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425a15
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425a29
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425a30
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425a50
+INFO    | 2023-04-18 21:47:48,205 | arbiter.master_chief.sa_recon | Starting recon of 0x425a59
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425a60
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425a9b
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425aa0
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425ada
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425aec
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425af0
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425b1a
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425b2c
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425b30
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425b76
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425ba3
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425bb0
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425bf9
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425c43
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425c5a
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425c60
+INFO    | 2023-04-18 21:47:48,206 | arbiter.master_chief.sa_recon | Starting recon of 0x425c6b
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425c70
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425c82
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425c90
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425d1a
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425d3c
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425d58
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425d95
+INFO    | 2023-04-18 21:47:48,207 | arbiter.master_chief.sa_recon | Starting recon of 0x425e0c
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425e81
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425eca
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425edf
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425ee0
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425f45
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425f50
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425f55
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425f60
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x425f74
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x500060
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x500070
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x5000a8
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x5000b0
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x5000b8
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x5000c0
+INFO    | 2023-04-18 21:47:48,208 | arbiter.master_chief.sa_recon | Starting recon of 0x5000c8
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x5000d0
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x5000d8
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x5000e0
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x5000e8
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x5000f0
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x5000f8
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500100
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500108
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500110
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500118
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500120
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500128
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500130
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500138
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500140
+INFO    | 2023-04-18 21:47:48,209 | arbiter.master_chief.sa_recon | Starting recon of 0x500148
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500150
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500158
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500160
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500168
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500170
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500178
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500180
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500188
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500190
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x500198
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x5001a0
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x5001a8
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x5001b0
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x5001b8
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x5001c0
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x5001c8
+INFO    | 2023-04-18 21:47:48,210 | arbiter.master_chief.sa_recon | Starting recon of 0x5001d0
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x5001d8
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x5001e0
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x5001e8
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x5001f0
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x5001f8
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500200
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500208
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500210
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500218
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500220
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500228
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500230
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500238
+INFO    | 2023-04-18 21:47:48,211 | arbiter.master_chief.sa_recon | Starting recon of 0x500240
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500248
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500250
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500258
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500260
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500268
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500270
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500278
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500280
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500288
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500290
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x500298
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x5002a0
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x5002a8
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x5002b0
+INFO    | 2023-04-18 21:47:48,212 | arbiter.master_chief.sa_recon | Starting recon of 0x5002b8
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002c0
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002c8
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002d0
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002d8
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002e0
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002e8
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002f0
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x5002f8
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500300
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500308
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500310
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500318
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500320
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500328
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500330
+INFO    | 2023-04-18 21:47:48,213 | arbiter.master_chief.sa_recon | Starting recon of 0x500338
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500340
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500348
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500350
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500358
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500360
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500368
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500370
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500378
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500380
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500388
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500390
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x500398
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x5003a0
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x5003a8
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x5003b0
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x5003b8
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x5003c0
+INFO    | 2023-04-18 21:47:48,214 | arbiter.master_chief.sa_recon | Starting recon of 0x5003c8
+INFO    | 2023-04-18 21:47:48,215 | arbiter.master_chief.sa_recon | Starting recon of 0x5003d0
+INFO    | 2023-04-18 21:47:48,215 | arbiter.master_chief.sa_recon | Starting recon of 0x5003d8
+INFO    | 2023-04-18 21:47:48,215 | arbiter.master_chief.sa_recon | Starting recon of 0x601050
+INFO    | 2023-04-18 21:47:48,215 | arbiter.master_chief.sa_recon | Starting recon of 0x601058
+Identifying functions: 100%|██████████| 1702/1702 [00:00<00:00, 12774.26it/s]
+Analyzing targets:   0%|          | 0/13 [00:00<?, ?it/s]DEBUG   | 2023-04-18 21:47:48,216 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x41b7c0
+DEBUG   | 2023-04-18 21:47:48,216 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x41b7c0
+DEBUG   | 2023-04-18 21:47:53,433 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x41b7c0 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:01,571 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x41b7c0
+WARNING | 2023-04-18 21:48:01,612 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:01,613 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x41b90b
+ERROR   | 2023-04-18 21:48:01,668 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:48:01,668 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x41b7c0
+Analyzing targets:   8%|▊         | 1/13 [00:13<02:41, 13.45s/it]DEBUG   | 2023-04-18 21:48:01,670 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x41be30
+DEBUG   | 2023-04-18 21:48:01,670 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x41be30
+DEBUG   | 2023-04-18 21:48:02,700 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x41be30 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:03,006 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x41be30
+WARNING | 2023-04-18 21:48:03,008 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:03,009 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x41be30
+ERROR   | 2023-04-18 21:48:03,009 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:48:03,009 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x41be30
+Analyzing targets:  15%|█▌        | 2/13 [00:14<01:09,  6.33s/it]DEBUG   | 2023-04-18 21:48:03,010 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x41c510
+DEBUG   | 2023-04-18 21:48:03,010 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x41c510
+DEBUG   | 2023-04-18 21:48:08,602 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x41c510 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:21,401 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x41c510
+WARNING | 2023-04-18 21:48:21,444 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:21,444 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x41c790
+ERROR   | 2023-04-18 21:48:21,594 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:48:21,594 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x41c510
+Analyzing targets:  23%|██▎       | 3/13 [00:33<01:59, 11.93s/it]DEBUG   | 2023-04-18 21:48:21,597 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x41c7d0
+DEBUG   | 2023-04-18 21:48:21,597 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x41c7d0
+DEBUG   | 2023-04-18 21:48:27,132 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x41c7d0 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:39,257 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x41c7d0
+WARNING | 2023-04-18 21:48:39,315 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:39,315 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x41ca40
+ERROR   | 2023-04-18 21:48:39,473 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:48:39,473 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x41c7d0
+Analyzing targets:  31%|███       | 4/13 [00:51<02:08, 14.28s/it]DEBUG   | 2023-04-18 21:48:39,475 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x421cc0
+DEBUG   | 2023-04-18 21:48:39,475 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x421cc0
+DEBUG   | 2023-04-18 21:48:41,173 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x421cc0 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:43,881 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x421cc0
+WARNING | 2023-04-18 21:48:43,886 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:43,886 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x421cdf
+INFO    | 2023-04-18 21:48:43,894 | arbiter.master_chief.sa_advanced | Found source at arg num : 1
+INFO    | 2023-04-18 21:48:43,894 | arbiter.master_chief.sa_advanced | 1 sinks in function @ 0x421cc0
+Analyzing targets:  38%|███▊      | 5/13 [00:55<01:25, 10.72s/it]DEBUG   | 2023-04-18 21:48:43,895 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x421e00
+DEBUG   | 2023-04-18 21:48:43,895 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x421e00
+DEBUG   | 2023-04-18 21:48:46,038 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x421e00 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:48,587 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x421e00
+WARNING | 2023-04-18 21:48:48,589 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:48,589 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x421e00
+ERROR   | 2023-04-18 21:48:48,589 | arbiter.master_chief.sa_advanced | Could not find target instruction
+INFO    | 2023-04-18 21:48:48,590 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x421e00
+Analyzing targets:  46%|████▌     | 6/13 [01:00<01:00,  8.67s/it]DEBUG   | 2023-04-18 21:48:48,590 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x421e20
+DEBUG   | 2023-04-18 21:48:48,590 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x421e20
+DEBUG   | 2023-04-18 21:48:49,920 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x421e20 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:52,680 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x421e20
+WARNING | 2023-04-18 21:48:52,682 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:52,683 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x421e20
+ERROR   | 2023-04-18 21:48:52,683 | arbiter.master_chief.sa_advanced | Could not find target instruction
+INFO    | 2023-04-18 21:48:52,683 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x421e20
+Analyzing targets:  54%|█████▍    | 7/13 [01:04<00:43,  7.18s/it]DEBUG   | 2023-04-18 21:48:52,684 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x421f50
+DEBUG   | 2023-04-18 21:48:52,684 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x421f50
+DEBUG   | 2023-04-18 21:48:53,823 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x421f50 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:55,795 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x421f50
+WARNING | 2023-04-18 21:48:55,806 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:55,807 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x421f50
+INFO    | 2023-04-18 21:48:55,810 | arbiter.master_chief.sa_advanced | Found source at arg num : 2
+INFO    | 2023-04-18 21:48:55,810 | arbiter.master_chief.sa_advanced | 1 sinks in function @ 0x421f50
+Analyzing targets:  62%|██████▏   | 8/13 [01:07<00:29,  5.89s/it]DEBUG   | 2023-04-18 21:48:55,811 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x421f90
+DEBUG   | 2023-04-18 21:48:55,811 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x421f90
+DEBUG   | 2023-04-18 21:48:57,453 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x421f90 (call_depth=1)
+DEBUG   | 2023-04-18 21:48:59,482 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x421f90
+WARNING | 2023-04-18 21:48:59,493 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:48:59,493 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x421fa3
+INFO    | 2023-04-18 21:48:59,496 | arbiter.master_chief.sa_advanced | 1 sinks in function @ 0x421f90
+Analyzing targets:  69%|██████▉   | 9/13 [01:11<00:20,  5.20s/it]DEBUG   | 2023-04-18 21:48:59,497 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x422ce0
+DEBUG   | 2023-04-18 21:48:59,497 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x422ce0
+DEBUG   | 2023-04-18 21:49:05,407 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x422ce0 (call_depth=1)
+DEBUG   | 2023-04-18 21:49:16,452 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x422ce0
+WARNING | 2023-04-18 21:49:16,502 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:49:16,503 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x422dfe
+ERROR   | 2023-04-18 21:49:16,524 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:49:16,524 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x422ce0
+Analyzing targets:  77%|███████▋  | 10/13 [01:28<00:26,  8.85s/it]DEBUG   | 2023-04-18 21:49:16,526 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x4231c0
+DEBUG   | 2023-04-18 21:49:16,526 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x4231c0
+DEBUG   | 2023-04-18 21:49:23,902 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x4231c0 (call_depth=1)
+DEBUG   | 2023-04-18 21:49:43,097 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x4231c0
+WARNING | 2023-04-18 21:49:43,168 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:49:43,169 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4233f8
+DEBUG   | 2023-04-18 21:49:43,570 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x42398c
+ERROR   | 2023-04-18 21:49:43,950 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-18 21:49:43,950 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x423bda
+ERROR   | 2023-04-18 21:49:43,974 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:49:43,974 | arbiter.master_chief.sa_advanced | 1 sinks in function @ 0x4231c0
+Analyzing targets:  85%|████████▍ | 11/13 [01:55<00:29, 14.54s/it]DEBUG   | 2023-04-18 21:49:43,974 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x423f70
+DEBUG   | 2023-04-18 21:49:43,974 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x423f70
+DEBUG   | 2023-04-18 21:49:44,635 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x423f70 (call_depth=1)
+DEBUG   | 2023-04-18 21:49:45,264 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x423f70
+WARNING | 2023-04-18 21:49:45,272 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:49:45,272 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x424084
+ERROR   | 2023-04-18 21:49:45,297 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-18 21:49:45,297 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x424128
+INFO    | 2023-04-18 21:49:45,358 | arbiter.master_chief.sa_advanced | Found source at arg num : 1
+DEBUG   | 2023-04-18 21:49:45,358 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x424133
+ERROR   | 2023-04-18 21:49:45,358 | arbiter.master_chief.sa_advanced | Could not find target instruction
+DEBUG   | 2023-04-18 21:49:45,358 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x424240
+ERROR   | 2023-04-18 21:49:45,402 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-18 21:49:45,402 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x424249
+ERROR   | 2023-04-18 21:49:45,482 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-18 21:49:45,482 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4242c6
+ERROR   | 2023-04-18 21:49:45,548 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:49:45,548 | arbiter.master_chief.sa_advanced | 1 sinks in function @ 0x423f70
+Analyzing targets:  92%|█████████▏| 12/13 [01:57<00:10, 10.60s/it]DEBUG   | 2023-04-18 21:49:45,549 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x424710
+DEBUG   | 2023-04-18 21:49:45,549 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x424710
+DEBUG   | 2023-04-18 21:49:52,177 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x424710 (call_depth=1)
+DEBUG   | 2023-04-18 21:50:02,993 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x424710
+WARNING | 2023-04-18 21:50:03,073 | arbiter.master_chief.sa_advanced | No checkpoint present in function
+DEBUG   | 2023-04-18 21:50:03,073 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x424a37
+ERROR   | 2023-04-18 21:50:03,143 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-18 21:50:03,143 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x424ae1
+ERROR   | 2023-04-18 21:50:03,291 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-18 21:50:03,291 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x424710
+Analyzing targets: 100%|██████████| 13/13 [02:15<00:00, 12.76s/it]Analyzing targets: 100%|██████████| 13/13 [02:15<00:00, 10.39s/it]
+Exploring targets:   0%|          | 0/5 [00:00<?, ?it/s]
+Exploring nodes in target:   0%|          | 0/1 [00:00<?, ?it/s][ADEBUG   | 2023-04-18 21:50:03,295 | arbiter.master_chief.symbolic_execution | Creating initial state for sub_421cc0
+INFO    | 2023-04-18 21:50:03,298 | arbiter.master_chief.symbolic_execution | Starting exploration 0x421cc0 => 0x421cdf
+DEBUG   | 2023-04-18 21:50:03,299 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-04-18 21:50:03,998 | arbiter.master_chief.symbolic_execution | Found 1 paths; active paths remaining
+INFO    | 2023-04-18 21:50:04,002 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+DEBUG   | 2023-04-18 21:50:04,285 | arbiter.master_chief.symbolic_execution | Max used bit : 32
+INFO    | 2023-04-18 21:50:04,853 | arbiter.master_chief.symbolic_execution | Satisfied state : 0xfd7df9f7
+DEBUG   | 2023-04-18 21:50:04,854 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+Exploring nodes in target: 100%|██████████| 1/1 [00:01<00:00,  1.56s/it][A
+                                                                        [AExploring targets:  20%|██        | 1/5 [00:01<00:06,  1.56s/it]
+Exploring nodes in target:   0%|          | 0/1 [00:00<?, ?it/s][ADEBUG   | 2023-04-18 21:50:04,854 | arbiter.master_chief.symbolic_execution | Creating initial state for sub_421f50
+INFO    | 2023-04-18 21:50:04,857 | arbiter.master_chief.symbolic_execution | Starting exploration 0x421f50 => 0x421f50
+DEBUG   | 2023-04-18 21:50:04,858 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-04-18 21:50:04,862 | arbiter.master_chief.symbolic_execution | Found 1 paths; No active paths
+INFO    | 2023-04-18 21:50:04,865 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+INFO    | 2023-04-18 21:50:04,879 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-04-18 21:50:04,879 | arbiter.master_chief.symbolic_execution | Found 1 paths
+INFO    | 2023-04-18 21:50:04,883 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+INFO    | 2023-04-18 21:50:04,883 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-04-18 21:50:04,884 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+                                                                [A
+Exploring nodes in target:   0%|          | 0/1 [00:00<?, ?it/s][ADEBUG   | 2023-04-18 21:50:04,884 | arbiter.master_chief.symbolic_execution | Creating initial state for sub_421f90
+INFO    | 2023-04-18 21:50:04,890 | arbiter.master_chief.symbolic_execution | Starting exploration 0x421f90 => 0x421fa3
+DEBUG   | 2023-04-18 21:50:04,891 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-04-18 21:50:04,936 | arbiter.master_chief.symbolic_execution | Found 1 paths; No active paths
+INFO    | 2023-04-18 21:50:04,942 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+INFO    | 2023-04-18 21:50:04,966 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-04-18 21:50:04,966 | arbiter.master_chief.symbolic_execution | Found 1 paths
+INFO    | 2023-04-18 21:50:04,970 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+INFO    | 2023-04-18 21:50:04,971 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-04-18 21:50:04,971 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+                                                                [AExploring targets:  60%|██████    | 3/5 [00:01<00:00,  2.23it/s]
+Exploring nodes in target:   0%|          | 0/1 [00:00<?, ?it/s][ADEBUG   | 2023-04-18 21:50:04,972 | arbiter.master_chief.symbolic_execution | Creating initial state for sub_4231c0
+INFO    | 2023-04-18 21:50:04,978 | arbiter.master_chief.symbolic_execution | Starting exploration 0x4231c0 => 0x4233f8
+DEBUG   | 2023-04-18 21:50:04,978 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+Exploring targets:  60%|██████    | 3/5 [00:14<00:00,  2.23it/s]DEBUG   | 2023-04-18 21:55:04,980 | arbiter.master_chief.symbolic_execution | Watchdog timed out, sending SIG_ALARM to self
+DEBUG   | 2023-04-18 21:55:04,980 | arbiter.master_chief.symbolic_execution | Signal handler invoked
+DEBUG   | 2023-04-18 21:55:04,980 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+DEBUG   | 2023-04-18 21:55:05,981 | arbiter.master_chief.symbolic_execution | Got an exception
+ERROR   | 2023-04-18 21:55:05,981 | arbiter.master_chief.symbolic_execution | Timeout
+DEBUG   | 2023-04-18 21:55:06,540 | arbiter.master_chief.symbolic_execution | Found 0 paths
+DEBUG   | 2023-04-18 21:55:06,543 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+Exploring nodes in target: 100%|██████████| 1/1 [05:01<00:00, 301.57s/it][A
+                                                                         [AExploring targets:  80%|████████  | 4/5 [05:03<01:44, 104.64s/it]
+Exploring nodes in target:   0%|          | 0/1 [00:00<?, ?it/s][ADEBUG   | 2023-04-18 21:55:06,547 | arbiter.master_chief.symbolic_execution | Creating initial state for sub_423f70
+INFO    | 2023-04-18 21:55:06,629 | arbiter.master_chief.symbolic_execution | Starting exploration 0x423f70 => 0x424128
+DEBUG   | 2023-04-18 21:55:06,630 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-04-18 21:55:12,638 | arbiter.master_chief.symbolic_execution | Found 1 paths; active paths remaining
+INFO    | 2023-04-18 21:55:12,650 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+DEBUG   | 2023-04-18 21:55:12,925 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+INFO    | 2023-04-18 21:55:12,968 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-04-18 21:55:12,969 | arbiter.master_chief.symbolic_execution | Wrapping up 15 active paths
+DEBUG   | 2023-04-18 21:55:14,155 | arbiter.master_chief.symbolic_execution | Found 2 paths; active paths remaining
+INFO    | 2023-04-18 21:55:14,163 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+DEBUG   | 2023-04-18 21:55:14,440 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+INFO    | 2023-04-18 21:55:14,494 | arbiter.master_chief.symbolic_execution | Got Unsat
+INFO    | 2023-04-18 21:55:14,502 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+DEBUG   | 2023-04-18 21:55:14,751 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+INFO    | 2023-04-18 21:55:14,789 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-04-18 21:55:14,792 | arbiter.master_chief.symbolic_execution | Wrapping up 15 active paths
+DEBUG   | 2023-04-18 21:55:15,610 | arbiter.master_chief.symbolic_execution | Found 2 paths
+INFO    | 2023-04-18 21:55:15,624 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+DEBUG   | 2023-04-18 21:55:15,876 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+INFO    | 2023-04-18 21:55:15,918 | arbiter.master_chief.symbolic_execution | Got Unsat
+INFO    | 2023-04-18 21:55:15,925 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : malloc
+DEBUG   | 2023-04-18 21:55:16,153 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+INFO    | 2023-04-18 21:55:16,196 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-04-18 21:55:16,196 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+Exploring nodes in target: 100%|██████████| 1/1 [00:09<00:00,  9.65s/it][A
+                                                                        [AExploring targets: 100%|██████████| 5/5 [05:12<00:00, 73.22s/it] Exploring targets: 100%|██████████| 5/5 [05:12<00:00, 62.58s/it]

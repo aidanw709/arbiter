@@ -1,4 +1,6 @@
 """
+Author: Nicholas Iten
+
 CWE-415: Double Free
 
 This template tracks the usage of pointers that have been double freed

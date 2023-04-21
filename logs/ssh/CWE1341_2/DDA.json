@@ -1,0 +1,363 @@
+{
+  "identified_functions": 45,
+  "4248064": {
+    "sink_count": 1,
+    "cfg_creation": 12,
+    "ddg_creation": 22,
+    "cdg_creation": 1,
+    "sources": 0,
+    "constants": 0
+  },
+  "4265648": {
+    "sink_count": 2,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4276544": {
+    "sink_count": 2,
+    "cfg_creation": 8,
+    "ddg_creation": 9,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4287328": {
+    "sink_count": 1,
+    "cfg_creation": 4,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4300256": {
+    "sink_count": 4,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4311600": {
+    "sink_count": 2,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4313648": {
+    "sink_count": 11,
+    "cfg_creation": 3,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4322512": {
+    "sink_count": 2,
+    "cfg_creation": 5,
+    "ddg_creation": 5,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4333536": {
+    "sink_count": 8,
+    "cfg_creation": 4,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4338352": {
+    "sink_count": 1,
+    "cfg_creation": 2,
+    "ddg_creation": 4,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4346208": {
+    "sink_count": 3,
+    "cfg_creation": 3,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4353328": {
+    "sink_count": 5,
+    "cfg_creation": 4,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4358832": {
+    "sink_count": 1,
+    "cfg_creation": 6,
+    "ddg_creation": 6,
+    "cdg_creation": 0,
+    "sources": 2,
+    "constants": 0
+  },
+  "4359568": {
+    "sink_count": 5,
+    "cfg_creation": 10,
+    "ddg_creation": 5,
+    "cdg_creation": 0,
+    "sources": 2,
+    "constants": 0
+  },
+  "4366224": {
+    "sink_count": 6,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4421680": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4425280": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4426400": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4426608": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4427696": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4428480": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4435488": {
+    "sink_count": 1,
+    "cfg_creation": 39,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4436112": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4442208": {
+    "sink_count": 2,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 4,
+    "constants": 0
+  },
+  "4444170": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 6,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4446240": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4466672": {
+    "sink_count": 4,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 4,
+    "constants": 0
+  },
+  "4467952": {
+    "sink_count": 2,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 3,
+    "constants": 0
+  },
+  "4476240": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4476336": {
+    "sink_count": 1,
+    "cfg_creation": 2,
+    "ddg_creation": 3,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4478480": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4481056": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4488496": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4507504": {
+    "sink_count": 4,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4529152": {
+    "sink_count": 1,
+    "cfg_creation": 13,
+    "ddg_creation": 19,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4532800": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  },
+  "4533712": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4577856": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4606576": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4606704": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4627360": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4664928": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4680432": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 11,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4685616": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "4694304": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 1,
+    "constants": 0
+  }
+}

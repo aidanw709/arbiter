@@ -1,0 +1,10 @@
+{
+  "identified_functions": 1,
+  "4269440": {
+    "sink_count": 2,
+    "cfg_creation": 2,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "constants": 2
+  }
+}

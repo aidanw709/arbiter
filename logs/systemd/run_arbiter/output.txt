@@ -1,0 +1,21 @@
+WARNING | 2023-04-18 22:46:06,352 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: sd_bus_object_vtable_format
+WARNING | 2023-04-18 22:46:06,381 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: string_hash_ops
+WARNING | 2023-04-18 22:46:06,381 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: path_hash_ops
+WARNING | 2023-04-18 22:46:06,381 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: trivial_hash_ops
+WARNING | 2023-04-18 22:46:06,381 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: id128_hash_ops
+WARNING | 2023-04-18 22:46:06,381 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: gather_environment
+WARNING | 2023-04-18 22:46:06,382 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: cgroup_io_limit_defaults
+WARNING | 2023-04-18 22:46:06,382 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: syscall_filter_sets
+WARNING | 2023-04-18 22:46:06,382 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: saved_argv
+WARNING | 2023-04-18 22:46:06,382 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __daylight
+WARNING | 2023-04-18 22:46:06,382 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: __tzname
+WARNING | 2023-04-18 22:46:06,382 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: saved_argc
+WARNING | 2023-04-18 22:46:06,383 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: opterr
+WARNING | 2023-04-18 22:46:06,429 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2023-04-18 22:46:06,477 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Traceback (most recent call last):
+  File "vuln_templates/run_arbiter.py", line 125, in <module>
+    main(template, target)
+  File "vuln_templates/run_arbiter.py", line 45, in main
+    sink_map = template.specify_sinks()
+AttributeError: module 'run_arbiter' has no attribute 'specify_sinks'

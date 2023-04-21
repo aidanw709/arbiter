@@ -1,0 +1,220 @@
+{
+  "identified_functions": 31,
+  "4240240": {
+    "sink_count": 14,
+    "cfg_creation": 3,
+    "ddg_creation": 5,
+    "cdg_creation": 0,
+    "constants": 11
+  },
+  "4241904": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4243200": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4247696": {
+    "sink_count": 8,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 8
+  },
+  "4248528": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4249344": {
+    "sink_count": 13,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 8
+  },
+  "4249920": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4250080": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4251696": {
+    "sink_count": 3,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "constants": 3
+  },
+  "4259860": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4274336": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4274432": {
+    "sink_count": 6,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 6
+  },
+  "4274928": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4276448": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4277200": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4277920": {
+    "sink_count": 7,
+    "cfg_creation": 11,
+    "ddg_creation": 41,
+    "cdg_creation": 0,
+    "constants": 7
+  },
+  "4297184": {
+    "sink_count": 9,
+    "cfg_creation": 4,
+    "ddg_creation": 7,
+    "cdg_creation": 0,
+    "constants": 9
+  },
+  "4299760": {
+    "sink_count": 2,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4302576": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4303056": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4307280": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 1
+  },
+  "4308800": {
+    "sink_count": 8,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 8
+  },
+  "4309664": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 3
+  },
+  "4311552": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 0
+  },
+  "4313776": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4314208": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4314992": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 3
+  },
+  "4316000": {
+    "sink_count": 2,
+    "cfg_creation": 2,
+    "ddg_creation": 4,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4319200": {
+    "sink_count": 3,
+    "cfg_creation": 0,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 3
+  },
+  "4319744": {
+    "sink_count": 2,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "constants": 2
+  },
+  "4320672": {
+    "sink_count": 10,
+    "cfg_creation": 0,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "constants": 8
+  }
+}

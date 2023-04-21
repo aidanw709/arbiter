@@ -1,0 +1,24 @@
+WARNING | 2023-04-19 01:10:18,574 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: numa_node_of_cpu
+WARNING | 2023-04-19 01:10:18,574 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: xalloc_err_handler
+WARNING | 2023-04-19 01:10:18,574 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: numa_max_node
+WARNING | 2023-04-19 01:10:18,575 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_main_buffers
+WARNING | 2023-04-19 01:10:18,575 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_main_available
+WARNING | 2023-04-19 01:10:18,575 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_swap_used
+WARNING | 2023-04-19 01:10:18,575 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: cur_term
+WARNING | 2023-04-19 01:10:18,575 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_main_cached
+WARNING | 2023-04-19 01:10:18,575 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_main_used
+WARNING | 2023-04-19 01:10:18,575 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: page_bytes
+WARNING | 2023-04-19 01:10:18,576 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_swap_free
+WARNING | 2023-04-19 01:10:18,576 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_main_free
+WARNING | 2023-04-19 01:10:18,576 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_swap_total
+WARNING | 2023-04-19 01:10:18,576 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: smp_num_cpus
+WARNING | 2023-04-19 01:10:18,576 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: Hertz
+WARNING | 2023-04-19 01:10:18,576 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: kb_main_total
+WARNING | 2023-04-19 01:10:18,578 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2023-04-19 01:10:18,580 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+Traceback (most recent call last):
+  File "vuln_templates/run_arbiter.py", line 125, in <module>
+    main(template, target)
+  File "vuln_templates/run_arbiter.py", line 45, in main
+    sink_map = template.specify_sinks()
+AttributeError: module 'run_arbiter' has no attribute 'specify_sinks'

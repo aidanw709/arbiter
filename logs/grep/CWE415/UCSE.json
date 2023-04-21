@@ -1,0 +1,29 @@
+{
+  "identified_functions": 49,
+  "4214288": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 1,
+    "exploration_time": 301
+  },
+  "4220352": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 1,
+    "exploration_time": 498
+  },
+  "4229712": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 0,
+    "exploration_time": 0
+  },
+  "4237376": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 4,
+    "expressions_tracked": 3,
+    "filtered_expressions": 3
+  }
+}

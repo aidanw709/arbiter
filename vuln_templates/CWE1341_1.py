@@ -1,4 +1,6 @@
 """
+Author: Nicholas Iten
+
 CWE-1341: Multiple Releases of Same Resource or Handle
 
 This template tracks the usage of files that can be closed twice

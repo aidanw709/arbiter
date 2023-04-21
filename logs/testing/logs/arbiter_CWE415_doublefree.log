@@ -1,0 +1,1181 @@
+2023-03-03 12:55:57,899 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 12:55:58,012 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 12:55:58,013 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 12:55:58,014 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 12:55:58,015 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 12:55:58,016 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 12:55:58,016 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 12:55:58,016 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 12:55:58,016 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 12:55:58,016 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 12:55:58,016 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 12:55:58,017 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 12:55:58,017 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 12:55:58,073 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 12:55:58,088 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 12:55:58,089 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 12:55:58,090 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 12:55:58,091 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 12:55:58,093 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 12:55:58,093 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 12:55:58,096 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 12:55:58,096 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 12:55:58,096 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 12:55:58,096 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 12:56:03,480 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 12:56:03,483 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 12:56:03,487 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 12:56:03,488 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 12:56:03,488 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 12:56:03,488 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 12:56:03,489 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 12:56:03,490 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 12:56:03,491 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 12:56:03,491 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 12:56:09,486 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 12:56:09,489 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 12:56:09,493 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 12:56:09,494 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 12:56:09,494 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 12:56:09,497 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 12:56:09,501 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:13:58,982 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:13:59,100 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:13:59,100 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:13:59,100 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:13:59,100 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:13:59,101 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:13:59,102 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:13:59,103 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:13:59,104 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:13:59,104 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:13:59,104 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:13:59,104 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:13:59,104 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:13:59,105 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:13:59,105 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:13:59,164 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:13:59,179 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:13:59,180 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:13:59,181 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:13:59,182 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:13:59,184 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:13:59,184 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:13:59,186 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:13:59,186 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:13:59,187 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:13:59,187 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:14:04,546 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:14:04,549 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:14:04,553 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:14:04,554 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:14:04,554 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:14:04,555 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:14:04,555 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:14:04,557 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:14:04,557 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:14:04,557 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:14:10,556 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:14:10,559 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:14:10,564 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:14:10,564 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:14:10,565 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:15:04,733 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:15:04,848 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:15:04,848 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:15:04,849 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:15:04,850 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:15:04,851 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:15:04,852 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:15:04,852 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:15:04,852 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:15:04,852 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:15:04,852 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:15:04,853 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:15:04,853 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:15:04,912 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:15:04,928 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:15:04,929 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:15:04,930 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:15:04,931 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:15:04,933 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:15:04,933 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:15:04,935 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:15:04,935 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:15:04,935 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:15:04,936 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:15:10,356 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:15:10,359 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:15:10,363 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:15:10,363 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:15:10,364 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:15:10,364 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:15:10,364 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:15:10,366 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:15:10,366 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:15:10,366 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:15:16,766 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:15:16,769 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:15:16,773 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:15:16,774 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:15:16,774 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:15:37,932 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:15:38,048 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:15:38,049 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:15:38,050 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:15:38,051 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:15:38,052 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:15:38,052 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:15:38,108 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:15:38,123 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:15:38,124 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:15:38,126 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:15:38,127 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:15:38,128 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:15:38,128 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:15:38,130 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:15:38,130 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:15:38,131 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:15:38,131 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:15:43,492 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:15:43,495 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:15:43,499 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:15:43,500 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:15:43,500 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:15:43,501 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:15:43,501 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:15:43,503 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:15:43,503 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:15:43,503 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:15:49,487 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:15:49,490 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:15:49,494 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:15:49,495 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:15:49,495 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:15:49,498 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:15:49,502 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:18:39,837 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:18:39,960 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:18:39,961 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:18:39,962 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:18:39,963 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:18:39,964 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:18:39,964 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:18:39,964 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:18:39,964 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:18:39,964 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:18:39,964 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:18:39,965 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:18:39,965 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:18:40,021 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:18:40,036 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:18:40,037 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:18:40,039 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:18:40,040 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:18:40,041 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:18:40,042 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:18:40,044 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:18:40,044 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:18:40,044 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:18:40,045 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:18:45,442 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:18:45,446 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:18:45,450 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:18:45,450 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:18:45,451 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:18:45,451 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:18:45,451 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:18:45,453 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:18:45,453 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:18:45,454 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:18:51,480 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:18:51,483 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:18:51,487 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:18:51,488 - arbiter.master_chief.symbolic_execution - DEBUG - Got an exception
+2023-03-03 13:18:51,488 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:18:51,488 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:18:51,491 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:18:51,495 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:19:26,239 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:19:26,356 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:19:26,357 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:19:26,358 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:19:26,359 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:19:26,360 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:19:26,360 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:19:26,418 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:19:26,433 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:19:26,434 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:19:26,435 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:19:26,436 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:19:26,438 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:19:26,438 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:19:26,440 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:19:26,440 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:19:26,440 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:19:26,440 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:19:31,836 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:19:31,839 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:19:31,843 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:19:31,843 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:19:31,844 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:19:31,844 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:19:31,844 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:19:31,846 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:19:31,846 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:19:31,847 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:19:38,187 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:19:38,191 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:19:38,195 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:19:38,196 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:19:38,196 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:25:00,682 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:25:00,795 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:25:00,795 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:25:00,795 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:25:00,796 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:25:00,797 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:25:00,798 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:25:00,799 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:25:00,799 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:25:00,799 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:25:00,799 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:25:00,799 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:25:00,800 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:25:00,854 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:25:00,868 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:25:00,869 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:25:00,871 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:25:00,872 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:25:00,873 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:25:00,873 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:25:00,875 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:25:00,875 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:25:00,876 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:25:00,876 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:25:06,237 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:25:06,240 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:25:06,244 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:25:06,245 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:25:06,245 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:25:06,245 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:25:06,246 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:25:06,247 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:25:06,248 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:25:06,248 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:25:12,555 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:25:12,559 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:25:12,563 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:25:12,564 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:25:12,564 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:25:12,567 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:25:12,571 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:26:43,211 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:26:43,328 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:26:43,329 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:26:43,330 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:26:43,330 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:26:43,330 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:26:43,330 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:26:43,330 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:26:43,330 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:26:43,330 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:26:43,331 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:26:43,332 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:26:43,332 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:26:43,333 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:26:43,333 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:26:43,395 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:26:43,411 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:26:43,413 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:26:43,414 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:26:43,415 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:26:43,417 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:26:43,417 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:26:43,419 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:26:43,419 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:26:43,419 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:26:43,420 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:26:48,864 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:26:48,867 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:26:48,871 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:26:48,872 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:26:48,872 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:26:48,873 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:26:48,873 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:26:48,875 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:26:48,875 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:26:48,875 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:26:55,297 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:26:55,301 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:26:55,305 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:26:55,306 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:26:55,306 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:27:07,465 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:27:07,579 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:27:07,579 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:27:07,579 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:27:07,579 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:27:07,580 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:27:07,581 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:27:07,582 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:27:07,583 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:27:07,583 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:27:07,583 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:27:07,583 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:27:07,642 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:27:07,657 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:27:07,658 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:27:07,660 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:27:07,661 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:27:07,662 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:27:07,662 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:27:07,665 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:27:07,665 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:27:07,665 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:27:07,665 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:27:13,085 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:27:13,088 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:27:13,091 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:27:13,092 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:27:13,093 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:27:13,093 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:27:13,093 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:27:13,095 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:27:13,095 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:27:13,096 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:27:19,475 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:27:19,478 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:27:19,483 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:27:19,484 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:27:19,484 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:28:46,484 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:28:46,598 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:28:46,598 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:28:46,598 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:28:46,599 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:28:46,600 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:28:46,601 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:28:46,602 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:28:46,602 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:28:46,602 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:28:46,602 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:28:46,602 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:28:46,603 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:28:46,603 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:28:46,665 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:28:46,680 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:28:46,681 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:28:46,683 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:28:46,684 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:28:46,685 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:28:46,686 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:28:46,688 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:28:46,688 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:28:46,688 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:28:46,689 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:28:52,107 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:28:52,110 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:28:52,114 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:28:52,115 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:28:52,116 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:28:52,119 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:28:52,124 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:29:19,537 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:29:19,668 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:29:19,668 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:29:19,668 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:29:19,668 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:29:19,668 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:29:19,669 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:29:19,670 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:29:19,671 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:29:19,672 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:29:19,672 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:29:19,672 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:29:19,672 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:29:19,729 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:29:19,744 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:29:19,745 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:29:19,746 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:29:19,747 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:29:19,749 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:29:19,749 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:29:19,751 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:29:19,751 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:29:19,751 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:29:19,752 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:29:25,119 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:29:25,122 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:29:25,125 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:29:25,126 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:29:25,127 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:29:25,127 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:29:25,127 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:29:25,129 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:29:25,129 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:29:25,129 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:29:31,168 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:29:31,171 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:29:31,175 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:29:31,176 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:29:31,176 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:29:31,180 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:29:31,185 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:33:36,271 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:33:36,385 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:33:36,386 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:33:36,387 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401293
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:33:36,388 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:33:36,389 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:33:36,389 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:33:36,389 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:33:36,389 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:33:36,389 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:33:36,389 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:33:36,389 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:33:36,390 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:33:36,390 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:33:36,448 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:33:36,463 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:33:36,464 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x40125c
+2023-03-03 13:33:36,466 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401280
+2023-03-03 13:33:36,467 - arbiter.master_chief.sa_advanced - INFO - 2 sinks in function @ 0x401189
+2023-03-03 13:33:36,468 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:33:36,468 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:33:36,470 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:33:36,471 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:33:36,471 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x40125c
+2023-03-03 13:33:36,471 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:33:41,833 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:33:41,837 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:33:41,840 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:33:41,842 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0xffffffffffffffff
+2023-03-03 13:33:41,842 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:33:41,842 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:33:41,842 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:33:41,844 - arbiter.master_chief.symbolic_execution - DEBUG - Created 1 states
+2023-03-03 13:33:41,845 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401280
+2023-03-03 13:33:41,845 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:33:47,855 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:33:47,859 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:33:47,862 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:33:47,864 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:33:47,864 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:33:47,867 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:33:47,871 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 64
+2023-03-03 13:34:44,830 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:34:44,950 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:34:44,950 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:34:44,950 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:34:44,950 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:34:44,950 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:34:44,950 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:34:44,950 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:34:44,951 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:34:44,952 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401297
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:34:44,953 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:34:44,954 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:34:44,954 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:34:44,954 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:34:44,955 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:34:45,011 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:34:45,023 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:34:45,024 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401254
+2023-03-03 13:34:45,026 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401260
+2023-03-03 13:34:45,027 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401284
+2023-03-03 13:34:45,028 - arbiter.master_chief.sa_advanced - INFO - 3 sinks in function @ 0x401189
+2023-03-03 13:34:45,029 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:34:45,029 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:34:45,030 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:34:45,034 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:34:45,034 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:34:45,034 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401254
+2023-03-03 13:34:45,034 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:34:45,718 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:34:45,724 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:34:45,724 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:34:45,744 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:34:45,744 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:34:45,745 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401254
+2023-03-03 13:34:45,745 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:34:46,503 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:34:46,506 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:34:46,507 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:34:46,725 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 32
+2023-03-03 13:34:46,744 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:34:46,744 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:34:46,745 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:34:46,745 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:34:46,745 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:34:46,749 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:34:46,749 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401260
+2023-03-03 13:34:46,749 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:34:47,419 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:34:47,422 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:34:47,422 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:34:47,440 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:34:47,440 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:34:47,441 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401260
+2023-03-03 13:34:47,441 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:34:48,193 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:34:48,196 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:34:48,229 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:34:48,230 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:34:48,230 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:34:48,230 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:34:48,230 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:34:48,234 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:34:48,234 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401284
+2023-03-03 13:34:48,234 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:34:48,945 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:34:48,948 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:34:48,948 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:34:48,949 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:34:48,950 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:34:48,953 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:34:48,953 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:37:36,999 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:37:37,114 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:37:37,114 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:37:37,115 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:37:37,116 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:37:37,117 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401297
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:37:37,118 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:37:37,119 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:37:37,119 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:37:37,120 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:37:37,177 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:37:37,189 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:37:37,190 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401254
+2023-03-03 13:37:37,191 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401260
+2023-03-03 13:37:37,193 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401284
+2023-03-03 13:37:37,194 - arbiter.master_chief.sa_advanced - INFO - 3 sinks in function @ 0x401189
+2023-03-03 13:37:37,196 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:37:37,196 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:37:37,196 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:37:37,201 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:37:37,201 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:37:37,201 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401254
+2023-03-03 13:37:37,201 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:37:37,880 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:37:37,885 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:37:37,885 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:37:37,904 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:37:37,905 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:37:37,905 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401254
+2023-03-03 13:37:37,905 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:37:38,650 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:37:38,653 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:37:38,653 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:37:38,866 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 32
+2023-03-03 13:37:38,885 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:37:38,885 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:37:38,886 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:37:38,886 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:37:38,886 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:37:38,890 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:37:38,890 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401260
+2023-03-03 13:37:38,890 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:37:39,588 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:37:39,591 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:37:39,591 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:37:39,609 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:37:39,609 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:37:39,610 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401260
+2023-03-03 13:37:39,610 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:37:40,372 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:37:40,375 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:37:40,410 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:37:40,411 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:37:40,411 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:37:40,411 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:37:40,412 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:37:40,415 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:37:40,415 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401284
+2023-03-03 13:37:40,416 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:37:41,140 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:37:41,143 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:37:41,143 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:37:41,144 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:37:41,144 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:37:41,148 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:37:41,148 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:04,179 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:38:04,295 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:38:04,296 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401297
+2023-03-03 13:38:04,297 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:38:04,298 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:38:04,299 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:38:04,299 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:38:04,367 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:38:04,381 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:38:04,383 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401254
+2023-03-03 13:38:04,385 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401260
+2023-03-03 13:38:04,386 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401284
+2023-03-03 13:38:04,387 - arbiter.master_chief.sa_advanced - INFO - 3 sinks in function @ 0x401189
+2023-03-03 13:38:04,389 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:38:04,389 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:38:04,389 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:38:04,393 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:38:04,393 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:38:04,394 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401254
+2023-03-03 13:38:04,394 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:05,071 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:05,077 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:05,077 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:05,094 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:05,095 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:05,095 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401254
+2023-03-03 13:38:05,096 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:05,815 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:05,818 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:05,819 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:06,030 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 32
+2023-03-03 13:38:06,048 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:06,048 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:06,049 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:38:06,049 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:38:06,049 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:38:06,052 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:38:06,053 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401260
+2023-03-03 13:38:06,053 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:06,721 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:06,724 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:06,724 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:06,741 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:06,741 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:06,742 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401260
+2023-03-03 13:38:06,742 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:07,483 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:07,487 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:07,519 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:07,520 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:07,520 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:38:07,520 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:38:07,520 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:38:07,524 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:38:07,524 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401284
+2023-03-03 13:38:07,524 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:08,223 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:08,226 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:08,227 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:08,228 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:38:08,228 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:38:08,231 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:08,231 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:53,874 - arbiter.master_chief.sa_recon - DEBUG - Creating CFG
+2023-03-03 13:38:53,934 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401000
+2023-03-03 13:38:53,934 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401020
+2023-03-03 13:38:53,934 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40102d
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401030
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40103f
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401040
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40104f
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401050
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x40105f
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401060
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401070
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401080
+2023-03-03 13:38:53,935 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401090
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010a0
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010ce
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010cf
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010d0
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4010f9
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401100
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401139
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401140
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401175
+2023-03-03 13:38:53,936 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401179
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401180
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401189
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - DEBUG - Adding target function main:0x401189
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401297
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x4012a0
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401305
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401310
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x401318
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500000
+2023-03-03 13:38:53,937 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500008
+2023-03-03 13:38:53,938 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500010
+2023-03-03 13:38:53,938 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x500018
+2023-03-03 13:38:53,938 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601050
+2023-03-03 13:38:53,938 - arbiter.master_chief.sa_recon - INFO - Starting recon of 0x601058
+2023-03-03 13:38:53,938 - arbiter.master_chief.sa_advanced - DEBUG - Analysis of function @ 0x401189
+2023-03-03 13:38:53,939 - arbiter.master_chief.sa_advanced - DEBUG - Creating CFGEmulated for function @ 0x401189
+2023-03-03 13:38:53,996 - arbiter.master_chief.sa_advanced - DEBUG - Creating DDG for function @ 0x401189 (call_depth=1)
+2023-03-03 13:38:54,008 - arbiter.master_chief.sa_advanced - DEBUG - Creating CDG for function @ 0x401189
+2023-03-03 13:38:54,010 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401254
+2023-03-03 13:38:54,011 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401260
+2023-03-03 13:38:54,012 - arbiter.master_chief.sa_advanced - DEBUG - Starting back tracking for 0x401284
+2023-03-03 13:38:54,013 - arbiter.master_chief.sa_advanced - INFO - 3 sinks in function @ 0x401189
+2023-03-03 13:38:54,015 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:38:54,015 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:38:54,015 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:38:54,019 - arbiter.master_chief.symbolic_execution - DEBUG - Hooked checkpoint malloc
+2023-03-03 13:38:54,019 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:38:54,019 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401254
+2023-03-03 13:38:54,020 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:54,702 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:54,706 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:54,706 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:54,722 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:54,722 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:54,723 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401254
+2023-03-03 13:38:54,723 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:55,458 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:55,461 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:55,461 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:55,672 - arbiter.master_chief.symbolic_execution - DEBUG - Max used bit : 32
+2023-03-03 13:38:55,690 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:55,691 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:55,691 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:38:55,691 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:38:55,691 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:38:55,695 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:38:55,695 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401260
+2023-03-03 13:38:55,695 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:56,415 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:56,418 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:56,418 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:56,434 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:56,434 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:56,435 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x40119f => 0x401260
+2023-03-03 13:38:56,435 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:57,169 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:57,172 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:57,207 - arbiter.master_chief.symbolic_execution - INFO - Satisfied state : 0x0
+2023-03-03 13:38:57,207 - arbiter.master_chief.symbolic_execution - DEBUG - Waiting for watchdog to join
+2023-03-03 13:38:57,208 - arbiter.master_chief.symbolic_execution - DEBUG - Creating checkpoint states for main
+2023-03-03 13:38:57,208 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x40119f
+2023-03-03 13:38:57,208 - arbiter.master_chief.symbolic_execution - DEBUG - Adding checkpoint address malloc:0x4011ad
+2023-03-03 13:38:57,212 - arbiter.master_chief.symbolic_execution - DEBUG - Created 2 states
+2023-03-03 13:38:57,212 - arbiter.master_chief.symbolic_execution - INFO - Starting exploration 0x4011ad => 0x401284
+2023-03-03 13:38:57,212 - arbiter.master_chief.symbolic_execution - DEBUG - Watchdog started, waiting for 300s
+2023-03-03 13:38:57,908 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths; No active paths
+2023-03-03 13:38:57,911 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:57,911 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free
+2023-03-03 13:38:57,912 - arbiter.master_chief.symbolic_execution - INFO - Got Unsat
+2023-03-03 13:38:57,912 - arbiter.master_chief.symbolic_execution - DEBUG - Found 1 paths
+2023-03-03 13:38:57,915 - arbiter.master_chief.symbolic_execution - WARNING - Couldn't find expression in sym vars
+2023-03-03 13:38:57,915 - arbiter.master_chief.symbolic_execution - INFO - Applying constraints for sink : free

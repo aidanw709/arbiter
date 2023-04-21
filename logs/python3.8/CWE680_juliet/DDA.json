@@ -1,0 +1,75 @@
+{
+  "identified_functions": 9,
+  "4698547": {
+    "sink_count": 2,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 2
+  },
+  "5182608": {
+    "sink_count": 1,
+    "cfg_creation": 5,
+    "ddg_creation": 49,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "5343519": {
+    "sink_count": 2,
+    "cfg_creation": 11,
+    "ddg_creation": 63,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "5414848": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 4,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "5492272": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "5810256": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "5833728": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 2,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "6009216": {
+    "sink_count": 1,
+    "cfg_creation": 0,
+    "ddg_creation": 0,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  },
+  "6012128": {
+    "sink_count": 1,
+    "cfg_creation": 1,
+    "ddg_creation": 1,
+    "cdg_creation": 0,
+    "sources": 0,
+    "constants": 0
+  }
+}

@@ -1,0 +1,8 @@
+WARNING | 2023-04-18 19:43:53,299 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2023-04-18 19:43:55,159 | cle.backends.tls | The provided object has an invalid tls_data_size. Skip TLS loading.
+Traceback (most recent call last):
+  File "vuln_templates/run_arbiter.py", line 125, in <module>
+    main(template, target)
+  File "vuln_templates/run_arbiter.py", line 45, in main
+    sink_map = template.specify_sinks()
+AttributeError: module 'run_arbiter' has no attribute 'specify_sinks'

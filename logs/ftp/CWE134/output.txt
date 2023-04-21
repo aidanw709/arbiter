@@ -1,0 +1,1422 @@
+WARNING | 2023-04-19 08:42:34,478 | cle.backends.externs | Symbol was allocated without a known size; emulation may fail if it is used non-opaquely: rl_terminal_name
+WARNING | 2023-04-19 08:42:34,480 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+WARNING | 2023-04-19 08:42:34,483 | cle.loader | For more information about "Symbol was allocated without a known size", see https://docs.angr.io/extending-angr/environment#simdata
+DEBUG   | 2023-04-19 08:42:34,503 | arbiter.master_chief.sa_recon | Creating CFG
+Identifying functions:   0%|          | 0/794 [00:00<?, ?it/s]INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406000
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406020
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x40602c
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406030
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406040
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406050
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406060
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406070
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406080
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x406090
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x4060a0
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x4060b0
+INFO    | 2023-04-19 08:42:41,066 | arbiter.master_chief.sa_recon | Starting recon of 0x4060c0
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x4060d0
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x4060e0
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x4060f0
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x406100
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x406110
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x406120
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x406130
+INFO    | 2023-04-19 08:42:41,067 | arbiter.master_chief.sa_recon | Starting recon of 0x406140
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x406150
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x406160
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x406170
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x406180
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x406190
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x4061a0
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x4061b0
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x4061c0
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x4061d0
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x4061e0
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x4061f0
+INFO    | 2023-04-19 08:42:41,068 | arbiter.master_chief.sa_recon | Starting recon of 0x406200
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406210
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406220
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406230
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406240
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406250
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406260
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406270
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406280
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406290
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x4062a0
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x4062b0
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x4062c0
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x4062d0
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x4062e0
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x4062f0
+INFO    | 2023-04-19 08:42:41,069 | arbiter.master_chief.sa_recon | Starting recon of 0x406300
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406310
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406320
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406330
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406340
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406350
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406360
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406370
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406380
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406390
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x4063a0
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x4063b0
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x4063c0
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x4063d0
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x4063e0
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x4063f0
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406400
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406410
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406420
+INFO    | 2023-04-19 08:42:41,070 | arbiter.master_chief.sa_recon | Starting recon of 0x406430
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x406440
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x406450
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x406460
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x406470
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x406480
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x406490
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x4064a0
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x4064b0
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x4064c0
+INFO    | 2023-04-19 08:42:41,071 | arbiter.master_chief.sa_recon | Starting recon of 0x4064d0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4064e0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4064f0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406500
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406510
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406520
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406530
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406540
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406550
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406560
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406570
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406580
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406590
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4065a0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4065b0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4065c0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4065d0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4065e0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x4065f0
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406600
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406610
+INFO    | 2023-04-19 08:42:41,072 | arbiter.master_chief.sa_recon | Starting recon of 0x406620
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406630
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406640
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406650
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406660
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406670
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406680
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406690
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x4066a0
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x4066b0
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x4066c0
+DEBUG   | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Adding target function main:0x4066c0
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x4067f7
+INFO    | 2023-04-19 08:42:41,073 | arbiter.master_chief.sa_recon | Starting recon of 0x406e0e
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406e1a
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406e56
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406e6d
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406e81
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406e99
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406edb
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406ef1
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406f04
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406fa6
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406fb0
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406fda
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406fdb
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x406fe0
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x407001
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x407009
+INFO    | 2023-04-19 08:42:41,074 | arbiter.master_chief.sa_recon | Starting recon of 0x407042
+INFO    | 2023-04-19 08:42:41,075 | arbiter.master_chief.sa_recon | Starting recon of 0x407049
+INFO    | 2023-04-19 08:42:41,075 | arbiter.master_chief.sa_recon | Starting recon of 0x407050
+ERROR   | 2023-04-19 08:42:41,075 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066b8
+INFO    | 2023-04-19 08:42:41,075 | arbiter.master_chief.sa_recon | Starting recon of 0x407081
+INFO    | 2023-04-19 08:42:41,075 | arbiter.master_chief.sa_recon | Starting recon of 0x407089
+INFO    | 2023-04-19 08:42:41,075 | arbiter.master_chief.sa_recon | Starting recon of 0x407090
+INFO    | 2023-04-19 08:42:41,075 | arbiter.master_chief.sa_recon | Starting recon of 0x407095
+INFO    | 2023-04-19 08:42:41,076 | arbiter.master_chief.sa_recon | Starting recon of 0x4070a0
+INFO    | 2023-04-19 08:42:41,076 | arbiter.master_chief.sa_recon | Starting recon of 0x407111
+INFO    | 2023-04-19 08:42:41,076 | arbiter.master_chief.sa_recon | Starting recon of 0x407195
+DEBUG   | 2023-04-19 08:42:41,078 | arbiter.master_chief.sa_recon | Adding target function sub_407195:0x407195
+INFO    | 2023-04-19 08:42:41,078 | arbiter.master_chief.sa_recon | Starting recon of 0x4071b2
+INFO    | 2023-04-19 08:42:41,078 | arbiter.master_chief.sa_recon | Starting recon of 0x4071fc
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x40723d
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407262
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407270
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407399
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407409
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x40742d
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407494
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x4074e7
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407551
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407561
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x40757d
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407593
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x4075c2
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x4075d4
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407603
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407642
+INFO    | 2023-04-19 08:42:41,079 | arbiter.master_chief.sa_recon | Starting recon of 0x407691
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x4076af
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x4076d8
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x407757
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x407760
+DEBUG   | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Adding target function sub_407760:0x407760
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x4077a7
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x4078b9
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x4078ec
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x40792d
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x4079c1
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x4079d0
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x407abe
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x407ac9
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x407b12
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x407b30
+INFO    | 2023-04-19 08:42:41,080 | arbiter.master_chief.sa_recon | Starting recon of 0x407bf2
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407c74
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407c8f
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407d6a
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407d8a
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407db7
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407dfc
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407e13
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407e32
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407e44
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407e66
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407e70
+DEBUG   | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Adding target function sub_407e70:0x407e70
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407f18
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407f2c
+INFO    | 2023-04-19 08:42:41,081 | arbiter.master_chief.sa_recon | Starting recon of 0x407f6a
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x407f7c
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x407fd4
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x407ffd
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408038
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408049
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408050
+ERROR   | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066a8
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x4080fb
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408153
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x40816a
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408298
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408412
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408428
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x40844d
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408463
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408482
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x4084f8
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408523
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x4085d0
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x408716
+INFO    | 2023-04-19 08:42:41,082 | arbiter.master_chief.sa_recon | Starting recon of 0x40872a
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408763
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408779
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408780
+DEBUG   | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Adding target function sub_408780:0x408780
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408824
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x4088ac
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x4088b0
+DEBUG   | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Adding target function sub_4088b0:0x4088b0
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408b75
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408baf
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408be6
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408c03
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408c21
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408c44
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408c69
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408c92
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408ca4
+INFO    | 2023-04-19 08:42:41,083 | arbiter.master_chief.sa_recon | Starting recon of 0x408cb4
+INFO    | 2023-04-19 08:42:41,084 | arbiter.master_chief.sa_recon | Starting recon of 0x408cd8
+INFO    | 2023-04-19 08:42:41,084 | arbiter.master_chief.sa_recon | Starting recon of 0x408d26
+INFO    | 2023-04-19 08:42:41,084 | arbiter.master_chief.sa_recon | Starting recon of 0x408d30
+INFO    | 2023-04-19 08:42:41,085 | arbiter.master_chief.sa_recon | Starting recon of 0x408d43
+DEBUG   | 2023-04-19 08:42:41,085 | arbiter.master_chief.sa_recon | Adding target function sub_408d43:0x408d43
+INFO    | 2023-04-19 08:42:41,085 | arbiter.master_chief.sa_recon | Starting recon of 0x408e4a
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x408ecb
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x408ef4
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x40901b
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x409046
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x409088
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x409106
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x409152
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x4091c3
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x409228
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x409230
+DEBUG   | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Adding target function sub_409230:0x409230
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x409354
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x40937e
+INFO    | 2023-04-19 08:42:41,086 | arbiter.master_chief.sa_recon | Starting recon of 0x4093a5
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4093c5
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x4093f1
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40940f
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40943b
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x409440
+DEBUG   | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Adding target function sub_409440:0x409440
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40945c
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40948b
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40950f
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x409510
+INFO    | 2023-04-19 08:42:41,087 | arbiter.master_chief.sa_recon | Starting recon of 0x40956a
+INFO    | 2023-04-19 08:42:41,088 | arbiter.master_chief.sa_recon | Starting recon of 0x409598
+INFO    | 2023-04-19 08:42:41,088 | arbiter.master_chief.sa_recon | Starting recon of 0x4095dd
+INFO    | 2023-04-19 08:42:41,088 | arbiter.master_chief.sa_recon | Starting recon of 0x4095ef
+INFO    | 2023-04-19 08:42:41,088 | arbiter.master_chief.sa_recon | Starting recon of 0x409607
+INFO    | 2023-04-19 08:42:41,088 | arbiter.master_chief.sa_recon | Starting recon of 0x409610
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x40961c
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x409620
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x40962c
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x409630
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x40963c
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x409640
+DEBUG   | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Adding target function sub_409640:0x409640
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x40966d
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x409670
+DEBUG   | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Adding target function sub_409670:0x409670
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x40969d
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4096a0
+DEBUG   | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Adding target function sub_4096a0:0x4096a0
+INFO    | 2023-04-19 08:42:41,089 | arbiter.master_chief.sa_recon | Starting recon of 0x4096cd
+INFO    | 2023-04-19 08:42:41,090 | arbiter.master_chief.sa_recon | Starting recon of 0x4096d0
+DEBUG   | 2023-04-19 08:42:41,090 | arbiter.master_chief.sa_recon | Adding target function sub_4096d0:0x4096d0
+INFO    | 2023-04-19 08:42:41,090 | arbiter.master_chief.sa_recon | Starting recon of 0x4097d7
+INFO    | 2023-04-19 08:42:41,090 | arbiter.master_chief.sa_recon | Starting recon of 0x409831
+INFO    | 2023-04-19 08:42:41,090 | arbiter.master_chief.sa_recon | Starting recon of 0x409866
+INFO    | 2023-04-19 08:42:41,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40988e
+INFO    | 2023-04-19 08:42:41,090 | arbiter.master_chief.sa_recon | Starting recon of 0x40989d
+INFO    | 2023-04-19 08:42:41,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4098ac
+INFO    | 2023-04-19 08:42:41,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4098cd
+INFO    | 2023-04-19 08:42:41,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4098e9
+INFO    | 2023-04-19 08:42:41,091 | arbiter.master_chief.sa_recon | Starting recon of 0x4098f0
+INFO    | 2023-04-19 08:42:41,091 | arbiter.master_chief.sa_recon | Starting recon of 0x409901
+INFO    | 2023-04-19 08:42:41,091 | arbiter.master_chief.sa_recon | Starting recon of 0x409910
+INFO    | 2023-04-19 08:42:41,091 | arbiter.master_chief.sa_recon | Starting recon of 0x409931
+INFO    | 2023-04-19 08:42:41,092 | arbiter.master_chief.sa_recon | Starting recon of 0x409940
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x409977
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x4099b9
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x4099c0
+DEBUG   | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Adding target function sub_4099c0:0x4099c0
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x409bca
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x409d41
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x409e12
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x409e27
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x409e52
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x409f77
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40a041
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40a07c
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40a104
+INFO    | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Starting recon of 0x40a110
+DEBUG   | 2023-04-19 08:42:41,093 | arbiter.master_chief.sa_recon | Adding target function sub_40a110:0x40a110
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a2fe
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a38f
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a3b2
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a3f4
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a40c
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a449
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a46e
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a4b3
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a54a
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a550
+DEBUG   | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Adding target function sub_40a550:0x40a550
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a7b9
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a80a
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a821
+INFO    | 2023-04-19 08:42:41,094 | arbiter.master_chief.sa_recon | Starting recon of 0x40a839
+INFO    | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40a8bf
+INFO    | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40a8c0
+DEBUG   | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Adding target function sub_40a8c0:0x40a8c0
+INFO    | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40a90d
+INFO    | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40a910
+DEBUG   | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Adding target function sub_40a910:0x40a910
+INFO    | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40a95d
+INFO    | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Starting recon of 0x40a960
+DEBUG   | 2023-04-19 08:42:41,096 | arbiter.master_chief.sa_recon | Adding target function sub_40a960:0x40a960
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40a9d1
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40aa09
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40aa27
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40aa30
+DEBUG   | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Adding target function sub_40aa30:0x40aa30
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40ab3f
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40ab53
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40ab97
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40abc4
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40abd0
+DEBUG   | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Adding target function sub_40abd0:0x40abd0
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40ac1d
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40ac20
+DEBUG   | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Adding target function sub_40ac20:0x40ac20
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40ac6d
+INFO    | 2023-04-19 08:42:41,097 | arbiter.master_chief.sa_recon | Starting recon of 0x40ac70
+DEBUG   | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Adding target function sub_40ac70:0x40ac70
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40acbd
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40acc0
+DEBUG   | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Adding target function sub_40acc0:0x40acc0
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad0d
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad10
+DEBUG   | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Adding target function sub_40ad10:0x40ad10
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad6b
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40ad7c
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40adbc
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40adc0
+DEBUG   | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Adding target function sub_40adc0:0x40adc0
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40adf1
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40ae36
+INFO    | 2023-04-19 08:42:41,098 | arbiter.master_chief.sa_recon | Starting recon of 0x40ae71
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40ae86
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40ae90
+DEBUG   | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Adding target function sub_40ae90:0x40ae90
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40aefd
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40af6d
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40afa1
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40afba
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40afe4
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40aff0
+DEBUG   | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Adding target function sub_40aff0:0x40aff0
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40b01c
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40b05e
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40b060
+DEBUG   | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Adding target function sub_40b060:0x40b060
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40b18a
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40b19f
+INFO    | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Starting recon of 0x40b230
+DEBUG   | 2023-04-19 08:42:41,099 | arbiter.master_chief.sa_recon | Adding target function sub_40b230:0x40b230
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b266
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b2b1
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b2da
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b2fb
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b300
+DEBUG   | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Adding target function sub_40b300:0x40b300
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b39b
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b3c4
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b3eb
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b408
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b435
+INFO    | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Starting recon of 0x40b440
+DEBUG   | 2023-04-19 08:42:41,100 | arbiter.master_chief.sa_recon | Adding target function sub_40b440:0x40b440
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b617
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b63b
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b686
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b69f
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b6e1
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b726
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b730
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b7d6
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b929
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b930
+DEBUG   | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Adding target function sub_40b930:0x40b930
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40b9ae
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40ba1e
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40ba45
+INFO    | 2023-04-19 08:42:41,101 | arbiter.master_chief.sa_recon | Starting recon of 0x40ba65
+INFO    | 2023-04-19 08:42:41,102 | arbiter.master_chief.sa_recon | Starting recon of 0x40bab5
+INFO    | 2023-04-19 08:42:41,102 | arbiter.master_chief.sa_recon | Starting recon of 0x40bad6
+INFO    | 2023-04-19 08:42:41,102 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb00
+INFO    | 2023-04-19 08:42:41,102 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb2c
+INFO    | 2023-04-19 08:42:41,102 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb58
+INFO    | 2023-04-19 08:42:41,102 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb60
+DEBUG   | 2023-04-19 08:42:41,102 | arbiter.master_chief.sa_recon | Adding target function sub_40bb60:0x40bb60
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bb91
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bbd6
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bc11
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bc26
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bc30
+DEBUG   | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Adding target function sub_40bc30:0x40bc30
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bc61
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bca6
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bce1
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bcf6
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bd00
+DEBUG   | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Adding target function sub_40bd00:0x40bd00
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bd28
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bd4e
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bd76
+INFO    | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Starting recon of 0x40bd80
+DEBUG   | 2023-04-19 08:42:41,103 | arbiter.master_chief.sa_recon | Adding target function sub_40bd80:0x40bd80
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bda8
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bdce
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bdf6
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40be00
+DEBUG   | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Adding target function sub_40be00:0x40be00
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40be35
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40be79
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bea2
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40beb0
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bee9
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bef0
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bf29
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bf30
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bf69
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bf70
+ERROR   | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066a8
+INFO    | 2023-04-19 08:42:41,104 | arbiter.master_chief.sa_recon | Starting recon of 0x40bf7b
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40bfeb
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c034
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c040
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c077
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c080
+DEBUG   | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Adding target function sub_40c080:0x40c080
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c0ab
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c0b0
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c183
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c19e
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c1a0
+DEBUG   | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Adding target function sub_40c1a0:0x40c1a0
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c2fe
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c33c
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c35d
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c37d
+INFO    | 2023-04-19 08:42:41,105 | arbiter.master_chief.sa_recon | Starting recon of 0x40c38f
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c3ad
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c3c5
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c3e5
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c3fc
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c400
+DEBUG   | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Adding target function sub_40c400:0x40c400
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c44d
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c450
+DEBUG   | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Adding target function sub_40c450:0x40c450
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c49d
+INFO    | 2023-04-19 08:42:41,107 | arbiter.master_chief.sa_recon | Starting recon of 0x40c4a0
+DEBUG   | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Adding target function sub_40c4a0:0x40c4a0
+INFO    | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Starting recon of 0x40c4ed
+INFO    | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Starting recon of 0x40c4f0
+INFO    | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Starting recon of 0x40c559
+INFO    | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Starting recon of 0x40c56e
+INFO    | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Starting recon of 0x40c599
+INFO    | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Starting recon of 0x40c5a0
+DEBUG   | 2023-04-19 08:42:41,108 | arbiter.master_chief.sa_recon | Adding target function sub_40c5a0:0x40c5a0
+INFO    | 2023-04-19 08:42:41,109 | arbiter.master_chief.sa_recon | Starting recon of 0x40c642
+INFO    | 2023-04-19 08:42:41,110 | arbiter.master_chief.sa_recon | Starting recon of 0x40c66a
+INFO    | 2023-04-19 08:42:41,110 | arbiter.master_chief.sa_recon | Starting recon of 0x40c6b2
+INFO    | 2023-04-19 08:42:41,110 | arbiter.master_chief.sa_recon | Starting recon of 0x40c6e0
+DEBUG   | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Adding target function sub_40c6e0:0x40c6e0
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c72d
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c730
+DEBUG   | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Adding target function sub_40c730:0x40c730
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c77d
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c780
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c79c
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c7c8
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c7de
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c7e0
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c7f1
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c7f8
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c834
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c840
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c84e
+INFO    | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Starting recon of 0x40c850
+DEBUG   | 2023-04-19 08:42:41,111 | arbiter.master_chief.sa_recon | Adding target function sub_40c850:0x40c850
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40c8ed
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40c987
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40c9a3
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40c9bb
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40c9dd
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40c9f1
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40caa6
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40cab0
+DEBUG   | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Adding target function sub_40cab0:0x40cab0
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40cafd
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40cb00
+DEBUG   | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Adding target function sub_40cb00:0x40cb00
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40cb39
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40cb40
+DEBUG   | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Adding target function sub_40cb40:0x40cb40
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40cb79
+INFO    | 2023-04-19 08:42:41,112 | arbiter.master_chief.sa_recon | Starting recon of 0x40cb80
+DEBUG   | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Adding target function sub_40cb80:0x40cb80
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cbb9
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cbc0
+DEBUG   | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Adding target function sub_40cbc0:0x40cbc0
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cbec
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cc2e
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cc30
+DEBUG   | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Adding target function sub_40cc30:0x40cc30
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40ccad
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40ccbc
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cd39
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cd8a
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cd90
+INFO    | 2023-04-19 08:42:41,114 | arbiter.master_chief.sa_recon | Starting recon of 0x40cdb0
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40cdcb
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40cdec
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40cdf0
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40ce6e
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40cea0
+DEBUG   | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Adding target function sub_40cea0:0x40cea0
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40cf8d
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40d252
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40d2aa
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40d2c3
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40d2e8
+INFO    | 2023-04-19 08:42:41,115 | arbiter.master_chief.sa_recon | Starting recon of 0x40d2f8
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d347
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d36a
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d38a
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d3b1
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d3c4
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d3f1
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d42b
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d44b
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d50b
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d510
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d511
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d520
+DEBUG   | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Adding target function sub_40d520:0x40d520
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d54a
+INFO    | 2023-04-19 08:42:41,116 | arbiter.master_chief.sa_recon | Starting recon of 0x40d550
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d5ec
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d5fa
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d625
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d663
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d670
+DEBUG   | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Adding target function sub_40d670:0x40d670
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d75f
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d7cf
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d7d0
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d859
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d866
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d894
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d8a0
+INFO    | 2023-04-19 08:42:41,117 | arbiter.master_chief.sa_recon | Starting recon of 0x40d8ca
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40d8d0
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40d8fa
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40d900
+DEBUG   | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Adding target function sub_40d900:0x40d900
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40db0c
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40db2d
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dbfc
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dc14
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dc3b
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dc5f
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dca1
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dcb8
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dcdd
+INFO    | 2023-04-19 08:42:41,118 | arbiter.master_chief.sa_recon | Starting recon of 0x40dd02
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40dd43
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40dde7
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40ddf0
+ERROR   | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066a8
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40def5
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e1cd
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e1ed
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e20d
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e590
+DEBUG   | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Adding target function sub_40e590:0x40e590
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e6f2
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e7b9
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e7d3
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e814
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e837
+INFO    | 2023-04-19 08:42:41,119 | arbiter.master_chief.sa_recon | Starting recon of 0x40e840
+DEBUG   | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Adding target function sub_40e840:0x40e840
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40e8ce
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ea07
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40eb28
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40eb83
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40eba9
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ec24
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ec9f
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed10
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40ed8b
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40efa6
+INFO    | 2023-04-19 08:42:41,121 | arbiter.master_chief.sa_recon | Starting recon of 0x40eff6
+INFO    | 2023-04-19 08:42:41,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40f011
+INFO    | 2023-04-19 08:42:41,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40f138
+INFO    | 2023-04-19 08:42:41,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40f16a
+INFO    | 2023-04-19 08:42:41,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40f1b2
+INFO    | 2023-04-19 08:42:41,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40f1c9
+INFO    | 2023-04-19 08:42:41,122 | arbiter.master_chief.sa_recon | Starting recon of 0x40f2c5
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f2de
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f30d
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f345
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f356
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f3a8
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f3be
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f418
+INFO    | 2023-04-19 08:42:41,123 | arbiter.master_chief.sa_recon | Starting recon of 0x40f436
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f482
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f490
+DEBUG   | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Adding target function sub_40f490:0x40f490
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f6da
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f6f1
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f74f
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f7cc
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f7e6
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40f7f0
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40fc29
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40fc63
+INFO    | 2023-04-19 08:42:41,124 | arbiter.master_chief.sa_recon | Starting recon of 0x40fc80
+DEBUG   | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Adding target function sub_40fc80:0x40fc80
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40fd6a
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40fd94
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40fda5
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40ff9b
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x40ffb7
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x41000e
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x41004c
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x4100ee
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x4101a2
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x4101cd
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x4101dc
+INFO    | 2023-04-19 08:42:41,125 | arbiter.master_chief.sa_recon | Starting recon of 0x4101ec
+INFO    | 2023-04-19 08:42:41,126 | arbiter.master_chief.sa_recon | Starting recon of 0x410203
+INFO    | 2023-04-19 08:42:41,126 | arbiter.master_chief.sa_recon | Starting recon of 0x410210
+ERROR   | 2023-04-19 08:42:41,126 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066a8
+INFO    | 2023-04-19 08:42:41,126 | arbiter.master_chief.sa_recon | Starting recon of 0x410375
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x410384
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x4104b5
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x410531
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x41053f
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x41058c
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x41063b
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x410676
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x41083b
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x410891
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x410b7e
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x410b9d
+INFO    | 2023-04-19 08:42:41,127 | arbiter.master_chief.sa_recon | Starting recon of 0x410c6e
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x410c81
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x410ec4
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x410ed0
+ERROR   | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066a8
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x411321
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x411339
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x4113a7
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x4113b7
+INFO    | 2023-04-19 08:42:41,128 | arbiter.master_chief.sa_recon | Starting recon of 0x411411
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411494
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x4115e7
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411898
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411b56
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411c3a
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411da3
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411eef
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411ef0
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x411fc3
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x412021
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x412030
+INFO    | 2023-04-19 08:42:41,129 | arbiter.master_chief.sa_recon | Starting recon of 0x412056
+INFO    | 2023-04-19 08:42:41,131 | arbiter.master_chief.sa_recon | Starting recon of 0x412060
+INFO    | 2023-04-19 08:42:41,131 | arbiter.master_chief.sa_recon | Starting recon of 0x4120ac
+INFO    | 2023-04-19 08:42:41,131 | arbiter.master_chief.sa_recon | Starting recon of 0x4120e0
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x412100
+ERROR   | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066a8
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x412218
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x412220
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x41225b
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x4122b1
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x4122e0
+DEBUG   | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Adding target function sub_4122e0:0x4122e0
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x412356
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x412376
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x412489
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x41253a
+INFO    | 2023-04-19 08:42:41,132 | arbiter.master_chief.sa_recon | Starting recon of 0x412579
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x412580
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x4127c4
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x4127ed
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x412861
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x41289c
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x4128b3
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x4128eb
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x412917
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x41292e
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x41293c
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x412970
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x412975
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x4129ba
+INFO    | 2023-04-19 08:42:41,133 | arbiter.master_chief.sa_recon | Starting recon of 0x4129cc
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412a00
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412a9f
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412aa7
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412ac5
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412ada
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412b22
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412b41
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412b8c
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412b90
+ERROR   | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Couldn't find function @ 4066a8
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412eb8
+INFO    | 2023-04-19 08:42:41,134 | arbiter.master_chief.sa_recon | Starting recon of 0x412f06
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x412f72
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x412fb7
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413122
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413253
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413265
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413285
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x41329b
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x4132a8
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x4132c6
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413495
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413593
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413678
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x413680
+INFO    | 2023-04-19 08:42:41,135 | arbiter.master_chief.sa_recon | Starting recon of 0x4136dd
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x4136e0
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x4136e4
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500000
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500008
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500018
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500020
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500048
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500050
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500058
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500060
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500068
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500070
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500078
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500080
+INFO    | 2023-04-19 08:42:41,136 | arbiter.master_chief.sa_recon | Starting recon of 0x500088
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x500090
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x500098
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000a0
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000a8
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000b0
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000b8
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000c0
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000c8
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000d0
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000d8
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000e0
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000e8
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000f0
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x5000f8
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x500100
+INFO    | 2023-04-19 08:42:41,137 | arbiter.master_chief.sa_recon | Starting recon of 0x500108
+INFO    | 2023-04-19 08:42:41,138 | arbiter.master_chief.sa_recon | Starting recon of 0x500110
+INFO    | 2023-04-19 08:42:41,138 | arbiter.master_chief.sa_recon | Starting recon of 0x500118
+INFO    | 2023-04-19 08:42:41,138 | arbiter.master_chief.sa_recon | Starting recon of 0x500120
+INFO    | 2023-04-19 08:42:41,138 | arbiter.master_chief.sa_recon | Starting recon of 0x500128
+INFO    | 2023-04-19 08:42:41,138 | arbiter.master_chief.sa_recon | Starting recon of 0x500130
+INFO    | 2023-04-19 08:42:41,139 | arbiter.master_chief.sa_recon | Starting recon of 0x500138
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500140
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500148
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500150
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500158
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500160
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500168
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500170
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500178
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500180
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500188
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500190
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x500198
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001a0
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001a8
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001b0
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001b8
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001c0
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001c8
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001d0
+INFO    | 2023-04-19 08:42:41,140 | arbiter.master_chief.sa_recon | Starting recon of 0x5001d8
+INFO    | 2023-04-19 08:42:41,141 | arbiter.master_chief.sa_recon | Starting recon of 0x5001e0
+INFO    | 2023-04-19 08:42:41,141 | arbiter.master_chief.sa_recon | Starting recon of 0x5001e8
+INFO    | 2023-04-19 08:42:41,141 | arbiter.master_chief.sa_recon | Starting recon of 0x5001f0
+INFO    | 2023-04-19 08:42:41,141 | arbiter.master_chief.sa_recon | Starting recon of 0x5001f8
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500200
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500208
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500210
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500218
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500220
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500228
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500230
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500238
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500240
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500248
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500250
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500258
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500260
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500268
+INFO    | 2023-04-19 08:42:41,142 | arbiter.master_chief.sa_recon | Starting recon of 0x500270
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x500278
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x500280
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x500288
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x500290
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x500298
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x5002a0
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x5002a8
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x5002b0
+INFO    | 2023-04-19 08:42:41,143 | arbiter.master_chief.sa_recon | Starting recon of 0x5002b8
+INFO    | 2023-04-19 08:42:41,144 | arbiter.master_chief.sa_recon | Starting recon of 0x5002c0
+INFO    | 2023-04-19 08:42:41,144 | arbiter.master_chief.sa_recon | Starting recon of 0x5002c8
+INFO    | 2023-04-19 08:42:41,144 | arbiter.master_chief.sa_recon | Starting recon of 0x5002d0
+INFO    | 2023-04-19 08:42:41,144 | arbiter.master_chief.sa_recon | Starting recon of 0x5002d8
+INFO    | 2023-04-19 08:42:41,144 | arbiter.master_chief.sa_recon | Starting recon of 0x5002e0
+INFO    | 2023-04-19 08:42:41,144 | arbiter.master_chief.sa_recon | Starting recon of 0x5002e8
+INFO    | 2023-04-19 08:42:41,144 | arbiter.master_chief.sa_recon | Starting recon of 0x5002f0
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x5002f8
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500300
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500308
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500310
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500318
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500320
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500328
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500330
+INFO    | 2023-04-19 08:42:41,145 | arbiter.master_chief.sa_recon | Starting recon of 0x500338
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500340
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500348
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500350
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500358
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500360
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500368
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500370
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x500378
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x601050
+INFO    | 2023-04-19 08:42:41,146 | arbiter.master_chief.sa_recon | Starting recon of 0x601058
+Identifying functions: 100%|██████████| 794/794 [00:00<00:00, 9815.40it/s]
+Analyzing targets:   0%|          | 0/62 [00:00<?, ?it/s]DEBUG   | 2023-04-19 08:42:41,147 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x4066c0
+DEBUG   | 2023-04-19 08:42:41,147 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x4066c0
+DEBUG   | 2023-04-19 08:42:43,489 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x4066c0 (call_depth=1)
+DEBUG   | 2023-04-19 08:42:44,899 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x4066c0
+DEBUG   | 2023-04-19 08:42:44,920 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40694b
+ERROR   | 2023-04-19 08:42:44,999 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:42:44,999 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x406b70
+ERROR   | 2023-04-19 08:42:45,536 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:42:45,537 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x4066c0
+Analyzing targets:   2%|▏         | 1/62 [00:04<04:27,  4.39s/it]DEBUG   | 2023-04-19 08:42:45,539 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x407195
+DEBUG   | 2023-04-19 08:42:45,540 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x407195
+DEBUG   | 2023-04-19 08:42:45,717 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x407195 (call_depth=1)
+DEBUG   | 2023-04-19 08:42:45,785 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x407195
+DEBUG   | 2023-04-19 08:42:45,787 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x407240
+ERROR   | 2023-04-19 08:42:45,792 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:42:45,792 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x407195
+Analyzing targets:   3%|▎         | 2/62 [00:04<01:57,  1.96s/it]DEBUG   | 2023-04-19 08:42:45,793 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x407760
+DEBUG   | 2023-04-19 08:42:45,793 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x407760
+DEBUG   | 2023-04-19 08:42:47,004 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x407760 (call_depth=1)
+DEBUG   | 2023-04-19 08:42:48,487 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x407760
+DEBUG   | 2023-04-19 08:42:48,496 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x407938
+ERROR   | 2023-04-19 08:42:48,588 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:42:48,588 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x407988
+ERROR   | 2023-04-19 08:42:48,683 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:42:48,683 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4079a0
+ERROR   | 2023-04-19 08:42:48,731 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:42:48,731 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x407760
+Analyzing targets:   5%|▍         | 3/62 [00:07<02:21,  2.41s/it]DEBUG   | 2023-04-19 08:42:48,733 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x407e70
+DEBUG   | 2023-04-19 08:42:48,733 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x407e70
+DEBUG   | 2023-04-19 08:42:49,078 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x407e70 (call_depth=1)
+DEBUG   | 2023-04-19 08:42:49,494 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x407e70
+DEBUG   | 2023-04-19 08:42:49,500 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x407fa8
+ERROR   | 2023-04-19 08:42:49,521 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:42:49,521 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x407fad
+ERROR   | 2023-04-19 08:42:49,539 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:42:49,539 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x407fd8
+ERROR   | 2023-04-19 08:42:49,597 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:42:49,597 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x408019
+ERROR   | 2023-04-19 08:42:49,604 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:42:49,604 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x407e70
+Analyzing targets:   6%|▋         | 4/62 [00:08<01:44,  1.80s/it]DEBUG   | 2023-04-19 08:42:49,605 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x408780
+DEBUG   | 2023-04-19 08:42:49,605 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x408780
+DEBUG   | 2023-04-19 08:42:51,228 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x408780 (call_depth=1)
+DEBUG   | 2023-04-19 08:42:53,222 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x408780
+DEBUG   | 2023-04-19 08:42:53,242 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4087b3
+ERROR   | 2023-04-19 08:42:53,246 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:42:53,246 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x408828
+ERROR   | 2023-04-19 08:42:53,249 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:42:53,250 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x408780
+Analyzing targets:   8%|▊         | 5/62 [00:12<02:20,  2.47s/it]DEBUG   | 2023-04-19 08:42:53,250 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x4088b0
+DEBUG   | 2023-04-19 08:42:53,250 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x4088b0
+DEBUG   | 2023-04-19 08:42:54,926 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x4088b0 (call_depth=1)
+DEBUG   | 2023-04-19 08:42:57,050 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x4088b0
+DEBUG   | 2023-04-19 08:42:57,073 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x408a22
+ERROR   | 2023-04-19 08:42:57,284 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:42:57,285 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x4088b0
+Analyzing targets:  10%|▉         | 6/62 [00:16<02:47,  3.00s/it]DEBUG   | 2023-04-19 08:42:57,286 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x408d43
+DEBUG   | 2023-04-19 08:42:57,286 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x408d43
+DEBUG   | 2023-04-19 08:42:58,163 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x408d43 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:00,120 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x408d43
+DEBUG   | 2023-04-19 08:43:00,135 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x408e9e
+ERROR   | 2023-04-19 08:43:00,158 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:00,158 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4091ee
+ERROR   | 2023-04-19 08:43:00,229 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:00,229 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x408d43
+Analyzing targets:  11%|█▏        | 7/62 [00:19<02:43,  2.98s/it]DEBUG   | 2023-04-19 08:43:00,230 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x409230
+DEBUG   | 2023-04-19 08:43:00,230 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x409230
+DEBUG   | 2023-04-19 08:43:00,437 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x409230 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:00,541 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x409230
+DEBUG   | 2023-04-19 08:43:00,544 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409380
+ERROR   | 2023-04-19 08:43:00,552 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:00,552 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409383
+ERROR   | 2023-04-19 08:43:00,562 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:00,563 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4093c8
+ERROR   | 2023-04-19 08:43:00,563 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:00,564 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409410
+ERROR   | 2023-04-19 08:43:00,575 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:00,575 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x409230
+Analyzing targets:  13%|█▎        | 8/62 [00:19<01:55,  2.14s/it]DEBUG   | 2023-04-19 08:43:00,576 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x409440
+DEBUG   | 2023-04-19 08:43:00,576 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x409440
+DEBUG   | 2023-04-19 08:43:01,078 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x409440 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:01,146 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x409440
+DEBUG   | 2023-04-19 08:43:01,148 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409460
+ERROR   | 2023-04-19 08:43:01,150 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:01,150 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409490
+ERROR   | 2023-04-19 08:43:01,151 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:01,151 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4094b2
+ERROR   | 2023-04-19 08:43:01,152 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:01,153 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4094d0
+ERROR   | 2023-04-19 08:43:01,156 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:01,156 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x409440
+Analyzing targets:  15%|█▍        | 9/62 [00:20<01:27,  1.65s/it]DEBUG   | 2023-04-19 08:43:01,156 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x409640
+DEBUG   | 2023-04-19 08:43:01,156 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x409640
+DEBUG   | 2023-04-19 08:43:01,170 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x409640 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:01,172 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x409640
+DEBUG   | 2023-04-19 08:43:01,173 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409640
+ERROR   | 2023-04-19 08:43:01,173 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:01,173 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x409640
+DEBUG   | 2023-04-19 08:43:01,174 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x409670
+DEBUG   | 2023-04-19 08:43:01,174 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x409670
+DEBUG   | 2023-04-19 08:43:01,187 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x409670 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:01,189 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x409670
+DEBUG   | 2023-04-19 08:43:01,190 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409670
+ERROR   | 2023-04-19 08:43:01,190 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:01,190 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x409670
+DEBUG   | 2023-04-19 08:43:01,191 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x4096a0
+DEBUG   | 2023-04-19 08:43:01,191 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x4096a0
+DEBUG   | 2023-04-19 08:43:01,206 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x4096a0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:01,211 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x4096a0
+DEBUG   | 2023-04-19 08:43:01,212 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4096a0
+ERROR   | 2023-04-19 08:43:01,213 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:01,213 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x4096a0
+DEBUG   | 2023-04-19 08:43:01,213 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x4096d0
+DEBUG   | 2023-04-19 08:43:01,213 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x4096d0
+DEBUG   | 2023-04-19 08:43:01,528 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x4096d0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:01,886 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x4096d0
+DEBUG   | 2023-04-19 08:43:01,889 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x409800
+ERROR   | 2023-04-19 08:43:01,906 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:01,907 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x4096d0
+Analyzing targets:  21%|██        | 13/62 [00:20<00:34,  1.40it/s]DEBUG   | 2023-04-19 08:43:01,907 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x4099c0
+DEBUG   | 2023-04-19 08:43:01,908 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x4099c0
+DEBUG   | 2023-04-19 08:43:04,650 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x4099c0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:07,843 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x4099c0
+DEBUG   | 2023-04-19 08:43:07,863 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a0c8
+ERROR   | 2023-04-19 08:43:07,866 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:07,867 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x4099c0
+Analyzing targets:  23%|██▎       | 14/62 [00:26<01:21,  1.69s/it]DEBUG   | 2023-04-19 08:43:07,868 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40a110
+DEBUG   | 2023-04-19 08:43:07,868 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40a110
+DEBUG   | 2023-04-19 08:43:09,223 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40a110 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:10,238 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40a110
+DEBUG   | 2023-04-19 08:43:10,249 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a32e
+ERROR   | 2023-04-19 08:43:10,376 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:10,377 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a528
+ERROR   | 2023-04-19 08:43:10,382 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:10,382 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40a110
+Analyzing targets:  24%|██▍       | 15/62 [00:29<01:27,  1.86s/it]DEBUG   | 2023-04-19 08:43:10,384 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40a550
+DEBUG   | 2023-04-19 08:43:10,384 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40a550
+DEBUG   | 2023-04-19 08:43:10,969 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40a550 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:11,173 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40a550
+DEBUG   | 2023-04-19 08:43:11,178 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a562
+ERROR   | 2023-04-19 08:43:11,179 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,179 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a59b
+ERROR   | 2023-04-19 08:43:11,189 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,189 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a5b0
+ERROR   | 2023-04-19 08:43:11,198 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,198 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a5c3
+ERROR   | 2023-04-19 08:43:11,209 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,209 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a5f9
+ERROR   | 2023-04-19 08:43:11,219 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,219 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a655
+ERROR   | 2023-04-19 08:43:11,230 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,231 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a686
+ERROR   | 2023-04-19 08:43:11,241 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,242 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a6b7
+ERROR   | 2023-04-19 08:43:11,255 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,255 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a6e7
+ERROR   | 2023-04-19 08:43:11,276 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,277 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a718
+ERROR   | 2023-04-19 08:43:11,291 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,291 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a739
+ERROR   | 2023-04-19 08:43:11,305 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,305 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a778
+ERROR   | 2023-04-19 08:43:11,325 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,325 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a85a
+ERROR   | 2023-04-19 08:43:11,342 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,343 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a870
+ERROR   | 2023-04-19 08:43:11,363 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,363 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a8a0
+ERROR   | 2023-04-19 08:43:11,368 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:11,368 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40a550
+Analyzing targets:  26%|██▌       | 16/62 [00:30<01:16,  1.66s/it]DEBUG   | 2023-04-19 08:43:11,369 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40a8c0
+DEBUG   | 2023-04-19 08:43:11,369 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40a8c0
+DEBUG   | 2023-04-19 08:43:11,389 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40a8c0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:11,394 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40a8c0
+DEBUG   | 2023-04-19 08:43:11,395 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a8c0
+ERROR   | 2023-04-19 08:43:11,396 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:11,396 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40a8c0
+DEBUG   | 2023-04-19 08:43:11,397 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40a910
+DEBUG   | 2023-04-19 08:43:11,397 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40a910
+DEBUG   | 2023-04-19 08:43:11,421 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40a910 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:11,425 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40a910
+DEBUG   | 2023-04-19 08:43:11,426 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a910
+ERROR   | 2023-04-19 08:43:11,426 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:11,426 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40a910
+DEBUG   | 2023-04-19 08:43:11,427 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40a960
+DEBUG   | 2023-04-19 08:43:11,427 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40a960
+DEBUG   | 2023-04-19 08:43:11,513 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40a960 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:11,538 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40a960
+DEBUG   | 2023-04-19 08:43:11,540 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a98a
+ERROR   | 2023-04-19 08:43:11,544 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,544 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40a9d8
+ERROR   | 2023-04-19 08:43:11,551 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:11,552 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40a960
+Analyzing targets:  31%|███       | 19/62 [00:30<00:37,  1.16it/s]DEBUG   | 2023-04-19 08:43:11,552 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40aa30
+DEBUG   | 2023-04-19 08:43:11,552 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40aa30
+DEBUG   | 2023-04-19 08:43:11,818 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40aa30 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:11,912 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40aa30
+DEBUG   | 2023-04-19 08:43:11,915 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ab08
+ERROR   | 2023-04-19 08:43:11,933 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,933 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ab0f
+ERROR   | 2023-04-19 08:43:11,950 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:11,951 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ab70
+ERROR   | 2023-04-19 08:43:11,971 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:11,971 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40aa30
+Analyzing targets:  32%|███▏      | 20/62 [00:30<00:32,  1.28it/s]DEBUG   | 2023-04-19 08:43:11,972 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40abd0
+DEBUG   | 2023-04-19 08:43:11,972 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40abd0
+DEBUG   | 2023-04-19 08:43:11,989 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40abd0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:11,993 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40abd0
+DEBUG   | 2023-04-19 08:43:11,993 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40abd0
+ERROR   | 2023-04-19 08:43:11,994 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:11,994 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40abd0
+DEBUG   | 2023-04-19 08:43:11,994 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40ac20
+DEBUG   | 2023-04-19 08:43:11,994 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40ac20
+DEBUG   | 2023-04-19 08:43:12,011 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40ac20 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:12,017 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40ac20
+DEBUG   | 2023-04-19 08:43:12,018 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ac20
+ERROR   | 2023-04-19 08:43:12,018 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:12,018 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40ac20
+DEBUG   | 2023-04-19 08:43:12,019 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40ac70
+DEBUG   | 2023-04-19 08:43:12,019 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40ac70
+DEBUG   | 2023-04-19 08:43:12,051 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40ac70 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:12,057 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40ac70
+DEBUG   | 2023-04-19 08:43:12,057 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ac70
+ERROR   | 2023-04-19 08:43:12,058 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:12,058 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40ac70
+DEBUG   | 2023-04-19 08:43:12,058 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40acc0
+DEBUG   | 2023-04-19 08:43:12,059 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40acc0
+DEBUG   | 2023-04-19 08:43:12,077 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40acc0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:12,081 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40acc0
+DEBUG   | 2023-04-19 08:43:12,081 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40acc0
+ERROR   | 2023-04-19 08:43:12,082 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:12,082 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40acc0
+Analyzing targets:  39%|███▊      | 24/62 [00:30<00:14,  2.58it/s]DEBUG   | 2023-04-19 08:43:12,082 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40ad10
+DEBUG   | 2023-04-19 08:43:12,082 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40ad10
+DEBUG   | 2023-04-19 08:43:12,183 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40ad10 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:12,433 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40ad10
+DEBUG   | 2023-04-19 08:43:12,435 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ad33
+ERROR   | 2023-04-19 08:43:12,448 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:12,448 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ad3d
+ERROR   | 2023-04-19 08:43:12,461 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:12,462 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ad99
+ERROR   | 2023-04-19 08:43:12,465 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:12,465 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40ad10
+DEBUG   | 2023-04-19 08:43:12,466 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40adc0
+DEBUG   | 2023-04-19 08:43:12,466 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40adc0
+DEBUG   | 2023-04-19 08:43:12,572 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40adc0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:12,605 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40adc0
+DEBUG   | 2023-04-19 08:43:12,608 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ae10
+ERROR   | 2023-04-19 08:43:12,612 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:12,612 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40adc0
+Analyzing targets:  42%|████▏     | 26/62 [00:31<00:12,  2.83it/s]DEBUG   | 2023-04-19 08:43:12,613 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40ae90
+DEBUG   | 2023-04-19 08:43:12,613 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40ae90
+DEBUG   | 2023-04-19 08:43:12,903 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40ae90 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:12,985 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40ae90
+DEBUG   | 2023-04-19 08:43:12,988 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40af00
+ERROR   | 2023-04-19 08:43:12,991 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:12,991 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40af48
+ERROR   | 2023-04-19 08:43:13,002 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:13,002 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40af7c
+ERROR   | 2023-04-19 08:43:13,012 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:13,012 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40ae90
+DEBUG   | 2023-04-19 08:43:13,013 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40aff0
+DEBUG   | 2023-04-19 08:43:13,013 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40aff0
+DEBUG   | 2023-04-19 08:43:13,090 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40aff0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:13,102 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40aff0
+DEBUG   | 2023-04-19 08:43:13,103 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40b038
+ERROR   | 2023-04-19 08:43:13,105 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:13,105 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40aff0
+Analyzing targets:  45%|████▌     | 28/62 [00:31<00:11,  3.09it/s]DEBUG   | 2023-04-19 08:43:13,106 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40b060
+DEBUG   | 2023-04-19 08:43:13,106 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40b060
+DEBUG   | 2023-04-19 08:43:13,536 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40b060 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:13,987 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40b060
+DEBUG   | 2023-04-19 08:43:13,992 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40b20b
+ERROR   | 2023-04-19 08:43:13,994 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:13,994 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40b060
+Analyzing targets:  47%|████▋     | 29/62 [00:32<00:13,  2.39it/s]DEBUG   | 2023-04-19 08:43:13,995 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40b230
+DEBUG   | 2023-04-19 08:43:13,995 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40b230
+DEBUG   | 2023-04-19 08:43:14,097 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40b230 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:14,148 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40b230
+DEBUG   | 2023-04-19 08:43:14,150 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40b288
+ERROR   | 2023-04-19 08:43:14,157 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:14,157 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40b230
+Analyzing targets:  48%|████▊     | 30/62 [00:33<00:11,  2.71it/s]DEBUG   | 2023-04-19 08:43:14,157 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40b300
+DEBUG   | 2023-04-19 08:43:14,157 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40b300
+DEBUG   | 2023-04-19 08:43:17,584 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40b300 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:22,958 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40b300
+DEBUG   | 2023-04-19 08:43:22,998 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40b3a0
+ERROR   | 2023-04-19 08:43:23,007 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:23,007 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40b300
+Analyzing targets:  50%|█████     | 31/62 [00:41<01:08,  2.20s/it]DEBUG   | 2023-04-19 08:43:23,009 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40b440
+DEBUG   | 2023-04-19 08:43:23,009 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40b440
+DEBUG   | 2023-04-19 08:43:24,364 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40b440 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:25,285 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40b440
+DEBUG   | 2023-04-19 08:43:25,295 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40b6b8
+ERROR   | 2023-04-19 08:43:25,311 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:25,311 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40b440
+Analyzing targets:  52%|█████▏    | 32/62 [00:44<01:06,  2.22s/it]DEBUG   | 2023-04-19 08:43:25,312 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40b930
+DEBUG   | 2023-04-19 08:43:25,312 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40b930
+DEBUG   | 2023-04-19 08:43:25,917 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40b930 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:26,050 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40b930
+DEBUG   | 2023-04-19 08:43:26,053 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ba20
+ERROR   | 2023-04-19 08:43:26,064 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:26,064 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ba68
+ERROR   | 2023-04-19 08:43:26,087 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:26,087 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40b930
+Analyzing targets:  53%|█████▎    | 33/62 [00:44<00:53,  1.86s/it]DEBUG   | 2023-04-19 08:43:26,088 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40bb60
+DEBUG   | 2023-04-19 08:43:26,088 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40bb60
+DEBUG   | 2023-04-19 08:43:26,196 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40bb60 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:26,222 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40bb60
+DEBUG   | 2023-04-19 08:43:26,224 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40bbb0
+ERROR   | 2023-04-19 08:43:26,226 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:26,226 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40bb60
+Analyzing targets:  55%|█████▍    | 34/62 [00:45<00:39,  1.40s/it]DEBUG   | 2023-04-19 08:43:26,227 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40bc30
+DEBUG   | 2023-04-19 08:43:26,227 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40bc30
+DEBUG   | 2023-04-19 08:43:26,356 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40bc30 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:26,398 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40bc30
+DEBUG   | 2023-04-19 08:43:26,401 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40bc80
+ERROR   | 2023-04-19 08:43:26,404 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:26,404 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40bc30
+Analyzing targets:  56%|█████▋    | 35/62 [00:45<00:28,  1.07s/it]DEBUG   | 2023-04-19 08:43:26,405 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40bd00
+DEBUG   | 2023-04-19 08:43:26,406 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40bd00
+DEBUG   | 2023-04-19 08:43:26,482 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40bd00 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:26,494 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40bd00
+DEBUG   | 2023-04-19 08:43:26,496 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40bd50
+ERROR   | 2023-04-19 08:43:26,500 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:26,500 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40bd00
+DEBUG   | 2023-04-19 08:43:26,501 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40bd80
+DEBUG   | 2023-04-19 08:43:26,501 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40bd80
+DEBUG   | 2023-04-19 08:43:26,571 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40bd80 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:26,584 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40bd80
+DEBUG   | 2023-04-19 08:43:26,585 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40bdd0
+ERROR   | 2023-04-19 08:43:26,587 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:26,587 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40bd80
+Analyzing targets:  60%|█████▉    | 37/62 [00:45<00:15,  1.57it/s]DEBUG   | 2023-04-19 08:43:26,588 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40be00
+DEBUG   | 2023-04-19 08:43:26,588 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40be00
+DEBUG   | 2023-04-19 08:43:26,707 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40be00 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:26,759 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40be00
+DEBUG   | 2023-04-19 08:43:26,761 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40be50
+ERROR   | 2023-04-19 08:43:26,773 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:26,773 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40be00
+Analyzing targets:  61%|██████▏   | 38/62 [00:45<00:12,  1.88it/s]DEBUG   | 2023-04-19 08:43:26,774 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c080
+DEBUG   | 2023-04-19 08:43:26,774 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c080
+DEBUG   | 2023-04-19 08:43:27,626 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c080 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:27,906 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c080
+DEBUG   | 2023-04-19 08:43:27,915 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c080
+ERROR   | 2023-04-19 08:43:27,916 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:27,916 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c080
+Analyzing targets:  63%|██████▎   | 39/62 [00:46<00:15,  1.46it/s]DEBUG   | 2023-04-19 08:43:27,917 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c1a0
+DEBUG   | 2023-04-19 08:43:27,917 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c1a0
+DEBUG   | 2023-04-19 08:43:28,385 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c1a0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:28,604 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c1a0
+DEBUG   | 2023-04-19 08:43:28,608 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c323
+ERROR   | 2023-04-19 08:43:28,610 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:28,610 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c1a0
+Analyzing targets:  65%|██████▍   | 40/62 [00:47<00:15,  1.45it/s]DEBUG   | 2023-04-19 08:43:28,611 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c400
+DEBUG   | 2023-04-19 08:43:28,611 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c400
+DEBUG   | 2023-04-19 08:43:28,632 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c400 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:28,636 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c400
+DEBUG   | 2023-04-19 08:43:28,637 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c400
+ERROR   | 2023-04-19 08:43:28,637 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:28,637 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c400
+DEBUG   | 2023-04-19 08:43:28,638 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c450
+DEBUG   | 2023-04-19 08:43:28,638 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c450
+DEBUG   | 2023-04-19 08:43:28,669 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c450 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:28,672 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c450
+DEBUG   | 2023-04-19 08:43:28,673 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c450
+ERROR   | 2023-04-19 08:43:28,674 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:28,674 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c450
+DEBUG   | 2023-04-19 08:43:28,674 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c4a0
+DEBUG   | 2023-04-19 08:43:28,674 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c4a0
+DEBUG   | 2023-04-19 08:43:28,695 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c4a0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:28,699 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c4a0
+DEBUG   | 2023-04-19 08:43:28,699 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c4a0
+ERROR   | 2023-04-19 08:43:28,700 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:28,700 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c4a0
+DEBUG   | 2023-04-19 08:43:28,701 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c5a0
+DEBUG   | 2023-04-19 08:43:28,701 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c5a0
+DEBUG   | 2023-04-19 08:43:29,216 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c5a0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,270 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c5a0
+DEBUG   | 2023-04-19 08:43:29,272 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c68c
+ERROR   | 2023-04-19 08:43:29,276 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,276 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c5a0
+Analyzing targets:  71%|███████   | 44/62 [00:48<00:06,  2.68it/s]DEBUG   | 2023-04-19 08:43:29,277 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c6e0
+DEBUG   | 2023-04-19 08:43:29,278 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c6e0
+DEBUG   | 2023-04-19 08:43:29,309 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c6e0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,315 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c6e0
+DEBUG   | 2023-04-19 08:43:29,316 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c6e0
+ERROR   | 2023-04-19 08:43:29,316 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,316 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c6e0
+DEBUG   | 2023-04-19 08:43:29,317 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c730
+DEBUG   | 2023-04-19 08:43:29,317 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c730
+DEBUG   | 2023-04-19 08:43:29,345 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c730 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,351 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c730
+DEBUG   | 2023-04-19 08:43:29,352 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40c730
+ERROR   | 2023-04-19 08:43:29,352 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,352 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c730
+DEBUG   | 2023-04-19 08:43:29,353 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40c850
+DEBUG   | 2023-04-19 08:43:29,353 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40c850
+DEBUG   | 2023-04-19 08:43:29,709 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40c850 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,876 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40c850
+DEBUG   | 2023-04-19 08:43:29,880 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ca14
+ERROR   | 2023-04-19 08:43:29,884 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,884 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40c850
+Analyzing targets:  76%|███████▌  | 47/62 [00:48<00:04,  3.27it/s]DEBUG   | 2023-04-19 08:43:29,885 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40cab0
+DEBUG   | 2023-04-19 08:43:29,885 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40cab0
+DEBUG   | 2023-04-19 08:43:29,906 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40cab0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,911 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40cab0
+DEBUG   | 2023-04-19 08:43:29,912 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40cab0
+ERROR   | 2023-04-19 08:43:29,912 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,912 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40cab0
+DEBUG   | 2023-04-19 08:43:29,913 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40cb00
+DEBUG   | 2023-04-19 08:43:29,913 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40cb00
+DEBUG   | 2023-04-19 08:43:29,933 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40cb00 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,938 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40cb00
+DEBUG   | 2023-04-19 08:43:29,939 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40cb00
+ERROR   | 2023-04-19 08:43:29,940 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,940 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40cb00
+DEBUG   | 2023-04-19 08:43:29,941 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40cb40
+DEBUG   | 2023-04-19 08:43:29,941 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40cb40
+DEBUG   | 2023-04-19 08:43:29,962 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40cb40 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,965 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40cb40
+DEBUG   | 2023-04-19 08:43:29,966 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40cb40
+ERROR   | 2023-04-19 08:43:29,966 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,967 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40cb40
+DEBUG   | 2023-04-19 08:43:29,967 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40cb80
+DEBUG   | 2023-04-19 08:43:29,967 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40cb80
+DEBUG   | 2023-04-19 08:43:29,988 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40cb80 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:29,990 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40cb80
+DEBUG   | 2023-04-19 08:43:29,991 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40cb80
+ERROR   | 2023-04-19 08:43:29,991 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:29,991 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40cb80
+Analyzing targets:  82%|████████▏ | 51/62 [00:48<00:02,  5.36it/s]DEBUG   | 2023-04-19 08:43:29,992 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40cbc0
+DEBUG   | 2023-04-19 08:43:29,993 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40cbc0
+DEBUG   | 2023-04-19 08:43:30,066 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40cbc0 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:30,079 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40cbc0
+DEBUG   | 2023-04-19 08:43:30,080 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40cc08
+ERROR   | 2023-04-19 08:43:30,081 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:30,082 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40cbc0
+DEBUG   | 2023-04-19 08:43:30,082 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40cc30
+DEBUG   | 2023-04-19 08:43:30,082 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40cc30
+DEBUG   | 2023-04-19 08:43:31,549 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40cc30 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:32,895 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40cc30
+DEBUG   | 2023-04-19 08:43:32,910 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40ccf5
+ERROR   | 2023-04-19 08:43:32,915 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:32,915 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40cd5c
+ERROR   | 2023-04-19 08:43:32,918 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:32,919 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40cc30
+Analyzing targets:  85%|████████▌ | 53/62 [00:51<00:04,  2.06it/s]DEBUG   | 2023-04-19 08:43:32,920 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40cea0
+DEBUG   | 2023-04-19 08:43:32,920 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40cea0
+DEBUG   | 2023-04-19 08:43:36,176 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40cea0 (call_depth=1)
+Analyzing targets:  85%|████████▌ | 53/62 [01:09<00:04,  2.06it/s]DEBUG   | 2023-04-19 08:43:57,143 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40cea0
+DEBUG   | 2023-04-19 08:43:57,152 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40d4a6
+ERROR   | 2023-04-19 08:43:57,155 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:57,155 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40d4da
+ERROR   | 2023-04-19 08:43:57,164 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:57,164 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40d4df
+ERROR   | 2023-04-19 08:43:57,175 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:57,175 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40cea0
+Analyzing targets:  87%|████████▋ | 54/62 [01:16<00:31,  3.89s/it]DEBUG   | 2023-04-19 08:43:57,176 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40d520
+DEBUG   | 2023-04-19 08:43:57,176 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40d520
+DEBUG   | 2023-04-19 08:43:57,195 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40d520 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:57,197 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40d520
+DEBUG   | 2023-04-19 08:43:57,197 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40d520
+ERROR   | 2023-04-19 08:43:57,198 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:57,198 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40d520
+DEBUG   | 2023-04-19 08:43:57,198 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40d670
+DEBUG   | 2023-04-19 08:43:57,199 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40d670
+DEBUG   | 2023-04-19 08:43:57,396 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40d670 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:57,509 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40d670
+DEBUG   | 2023-04-19 08:43:57,512 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40d789
+ERROR   | 2023-04-19 08:43:57,517 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:43:57,517 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40d670
+Analyzing targets:  90%|█████████ | 56/62 [01:16<00:16,  2.81s/it]DEBUG   | 2023-04-19 08:43:57,517 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40d900
+DEBUG   | 2023-04-19 08:43:57,518 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40d900
+DEBUG   | 2023-04-19 08:43:59,011 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40d900 (call_depth=1)
+DEBUG   | 2023-04-19 08:43:59,707 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40d900
+DEBUG   | 2023-04-19 08:43:59,715 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40db71
+ERROR   | 2023-04-19 08:43:59,891 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:43:59,891 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40db77
+ERROR   | 2023-04-19 08:44:00,074 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:44:00,074 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40dc40
+ERROR   | 2023-04-19 08:44:00,264 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:44:00,265 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40d900
+Analyzing targets:  92%|█████████▏| 57/62 [01:19<00:14,  2.80s/it]DEBUG   | 2023-04-19 08:44:00,267 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40e590
+DEBUG   | 2023-04-19 08:44:00,267 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40e590
+DEBUG   | 2023-04-19 08:44:01,556 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40e590 (call_depth=1)
+DEBUG   | 2023-04-19 08:44:02,407 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40e590
+DEBUG   | 2023-04-19 08:44:02,417 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40e61b
+INFO    | 2023-04-19 08:44:02,583 | arbiter.master_chief.sa_advanced | Found source at arg num : 1
+DEBUG   | 2023-04-19 08:44:02,583 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40e710
+ERROR   | 2023-04-19 08:44:02,585 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:44:02,585 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40e761
+DEBUG   | 2023-04-19 08:44:02,614 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40e7c0
+ERROR   | 2023-04-19 08:44:02,640 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:44:02,640 | arbiter.master_chief.sa_advanced | 2 sinks in function @ 0x40e590
+Analyzing targets:  94%|█████████▎| 58/62 [01:21<00:10,  2.72s/it]DEBUG   | 2023-04-19 08:44:02,641 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40e840
+DEBUG   | 2023-04-19 08:44:02,641 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40e840
+DEBUG   | 2023-04-19 08:44:03,490 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40e840 (call_depth=1)
+DEBUG   | 2023-04-19 08:44:04,036 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40e840
+DEBUG   | 2023-04-19 08:44:04,045 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40e8fa
+ERROR   | 2023-04-19 08:44:04,196 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:44:04,197 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40eb0d
+ERROR   | 2023-04-19 08:44:04,403 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:44:04,403 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40e840
+Analyzing targets:  95%|█████████▌| 59/62 [01:23<00:07,  2.51s/it]DEBUG   | 2023-04-19 08:44:04,405 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40f490
+DEBUG   | 2023-04-19 08:44:04,405 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40f490
+DEBUG   | 2023-04-19 08:44:11,122 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40f490 (call_depth=1)
+DEBUG   | 2023-04-19 08:44:22,770 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40f490
+DEBUG   | 2023-04-19 08:44:22,833 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40f4c3
+ERROR   | 2023-04-19 08:44:23,944 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:44:23,944 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40f525
+ERROR   | 2023-04-19 08:44:25,045 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:44:25,045 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40f490
+Analyzing targets:  97%|█████████▋| 60/62 [01:43<00:13,  6.84s/it]DEBUG   | 2023-04-19 08:44:25,054 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x40fc80
+DEBUG   | 2023-04-19 08:44:25,054 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x40fc80
+DEBUG   | 2023-04-19 08:44:31,670 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x40fc80 (call_depth=1)
+DEBUG   | 2023-04-19 08:44:41,718 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x40fc80
+DEBUG   | 2023-04-19 08:44:41,775 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x4100c2
+ERROR   | 2023-04-19 08:44:42,517 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:44:42,517 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x40fc80
+Analyzing targets:  98%|█████████▊| 61/62 [02:01<00:09,  9.54s/it]DEBUG   | 2023-04-19 08:44:42,524 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x4122e0
+DEBUG   | 2023-04-19 08:44:42,524 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x4122e0
+DEBUG   | 2023-04-19 08:44:42,901 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x4122e0 (call_depth=1)
+DEBUG   | 2023-04-19 08:44:43,130 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x4122e0
+DEBUG   | 2023-04-19 08:44:43,133 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x412325
+ERROR   | 2023-04-19 08:44:43,143 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:44:43,143 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x412360
+ERROR   | 2023-04-19 08:44:43,154 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:44:43,154 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x412380
+ERROR   | 2023-04-19 08:44:43,163 | arbiter.master_chief.sa_advanced | Got constant value
+DEBUG   | 2023-04-19 08:44:43,164 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x412540
+ERROR   | 2023-04-19 08:44:43,245 | arbiter.master_chief.sa_advanced | Got constant value
+INFO    | 2023-04-19 08:44:43,246 | arbiter.master_chief.sa_advanced | No valid sinks in function @ 0x4122e0
+Analyzing targets: 100%|██████████| 62/62 [02:02<00:00,  7.19s/it]Analyzing targets: 100%|██████████| 62/62 [02:02<00:00,  1.97s/it]
+Exploring targets:   0%|          | 0/1 [00:00<?, ?it/s]
+Exploring nodes in target:   0%|          | 0/2 [00:00<?, ?it/s][ADEBUG   | 2023-04-19 08:44:43,250 | arbiter.master_chief.symbolic_execution | Creating initial state for sub_40e590
+INFO    | 2023-04-19 08:44:43,255 | arbiter.master_chief.symbolic_execution | Starting exploration 0x40e590 => 0x40e61b
+DEBUG   | 2023-04-19 08:44:43,255 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-04-19 08:44:43,408 | arbiter.master_chief.symbolic_execution | Got an exception
+DEBUG   | 2023-04-19 08:44:43,408 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+DEBUG   | 2023-04-19 08:44:43,408 | arbiter.master_chief.symbolic_execution | Found 0 paths
+DEBUG   | 2023-04-19 08:44:43,409 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+Exploring nodes in target:  50%|█████     | 1/2 [00:00<00:00,  6.29it/s][ADEBUG   | 2023-04-19 08:44:43,409 | arbiter.master_chief.symbolic_execution | Creating initial state for sub_40e590
+INFO    | 2023-04-19 08:44:43,413 | arbiter.master_chief.symbolic_execution | Starting exploration 0x40e590 => 0x40e761
+DEBUG   | 2023-04-19 08:44:43,414 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-04-19 08:44:43,571 | arbiter.master_chief.symbolic_execution | Got an exception
+DEBUG   | 2023-04-19 08:44:43,572 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+DEBUG   | 2023-04-19 08:44:43,572 | arbiter.master_chief.symbolic_execution | Found 0 paths
+DEBUG   | 2023-04-19 08:44:43,572 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+Exploring nodes in target: 100%|██████████| 2/2 [00:00<00:00,  6.20it/s][A
+                                                                        [AExploring targets: 100%|██████████| 1/1 [00:00<00:00,  3.10it/s]Exploring targets: 100%|██████████| 1/1 [00:00<00:00,  3.10it/s]

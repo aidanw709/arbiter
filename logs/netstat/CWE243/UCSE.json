@@ -1,0 +1,56 @@
+{
+  "identified_functions": 27,
+  "4234208": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 12,
+    "filtered_expressions": 12,
+    "sat_states": 0,
+    "exploration_time": 1
+  },
+  "4234752": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 12,
+    "filtered_expressions": 12,
+    "sat_states": 0,
+    "exploration_time": 1
+  },
+  "4235360": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 12,
+    "filtered_expressions": 12,
+    "sat_states": 0,
+    "exploration_time": 0
+  },
+  "4238192": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 3,
+    "expressions_tracked": 36,
+    "filtered_expressions": 36,
+    "sat_states": 0
+  },
+  "4239840": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 12,
+    "filtered_expressions": 12,
+    "sat_states": 0,
+    "exploration_time": 0
+  },
+  "4242112": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 0,
+    "expressions_tracked": 10,
+    "filtered_expressions": 10
+  }
+}

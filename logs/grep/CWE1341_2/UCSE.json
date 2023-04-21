@@ -1,0 +1,41 @@
+{
+  "identified_functions": 12,
+  "4214288": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 1,
+    "exploration_time": 301
+  },
+  "4230640": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 0,
+    "exploration_time": 1
+  },
+  "4305872": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "exploration_time": 12,
+    "expressions_tracked": 17,
+    "filtered_expressions": 17,
+    "sat_states": 17
+  },
+  "4330128": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "expressions_tracked": 10,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4337280": {
+    "entry_state": 1,
+    "paths_found": 6,
+    "paths_timedout": 0,
+    "exploration_time": 18,
+    "expressions_tracked": 53,
+    "filtered_expressions": 1,
+    "sat_states": 0
+  }
+}

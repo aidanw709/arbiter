@@ -1,4 +1,6 @@
 """
+Author: Nicholas Iten
+
 CWE-242: Use of Inherently Dangerous Function
 
 This template tracks the usage of functions that are considered dangerous regardless

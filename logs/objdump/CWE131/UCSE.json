@@ -1,0 +1,68 @@
+{
+  "identified_functions": 45,
+  "4231936": {
+    "entry_state": 1,
+    "paths_found": 3,
+    "paths_timedout": 1,
+    "exploration_time": 301,
+    "expressions_tracked": 243,
+    "filtered_expressions": 243,
+    "sat_states": 0
+  },
+  "4235680": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 0,
+    "exploration_time": 1
+  },
+  "4236256": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "expressions_tracked": 10,
+    "filtered_expressions": 10,
+    "sat_states": 0,
+    "exploration_time": 0
+  },
+  "4238496": {
+    "entry_state": 1,
+    "paths_found": 2,
+    "paths_timedout": 0,
+    "exploration_time": 1,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 1
+  },
+  "4238784": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 1,
+    "exploration_time": 301
+  },
+  "4239600": {
+    "entry_state": 1,
+    "paths_found": 4,
+    "paths_timedout": 0,
+    "exploration_time": 130,
+    "expressions_tracked": 43,
+    "filtered_expressions": 1,
+    "sat_states": 0
+  },
+  "4246628": {
+    "entry_state": 1,
+    "paths_found": 4,
+    "paths_timedout": 0,
+    "exploration_time": 53,
+    "expressions_tracked": 16,
+    "filtered_expressions": 16,
+    "sat_states": 0
+  },
+  "4247152": {
+    "entry_state": 1,
+    "paths_found": 1,
+    "paths_timedout": 0,
+    "exploration_time": 0,
+    "expressions_tracked": 10,
+    "filtered_expressions": 1
+  }
+}

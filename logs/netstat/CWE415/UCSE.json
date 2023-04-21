@@ -1,0 +1,12 @@
+{
+  "identified_functions": 9,
+  "4236336": {
+    "checkpoint_state": 1,
+    "paths_found": 3,
+    "paths_timedout": 0,
+    "exploration_time": 245,
+    "expressions_tracked": 1,
+    "filtered_expressions": 1,
+    "sat_states": 0
+  }
+}

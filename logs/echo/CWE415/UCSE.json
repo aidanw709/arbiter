@@ -1,0 +1,15 @@
+{
+  "identified_functions": 2,
+  "4212272": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 0,
+    "exploration_time": 3
+  },
+  "4213360": {
+    "entry_state": 1,
+    "paths_found": 0,
+    "paths_timedout": 0,
+    "exploration_time": 0
+  }
+}

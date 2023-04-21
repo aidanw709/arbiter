@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "vuln_templates/run_arbiter.py", line 125, in <module>
+    main(template, target)
+  File "vuln_templates/run_arbiter.py", line 43, in main
+    project = angr.Project(target, auto_load_libs=False)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/project.py", line 137, in __init__
+    self.loader = cle.Loader(self.filename, concrete_target=concrete_target, **load_options)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/cle/loader.py", line 133, in __init__
+    self.initial_load_objects = self._internal_load(main_binary, *preload_libs, *force_load_libs, preloading=(main_binary, *preload_libs))
+  File "/home/itenpn/.local/lib/python3.8/site-packages/cle/loader.py", line 668, in _internal_load
+    obj = self._load_object_isolated(main_spec)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/cle/loader.py", line 845, in _load_object_isolated
+    raise CLECompatibilityError("Unable to find a loader backend for %s.  Perhaps try the 'blob' loader?" % spec)
+cle.errors.CLECompatibilityError: Unable to find a loader backend for /bin/pip3.  Perhaps try the 'blob' loader?

@@ -5,19 +5,19 @@ Arbiter is a combination of static and dynamic analyses, built on top of angr, t
 All you need to use Arbiter is a sink that can be identified statically (like a call to a specific function), and a property that should not be violated at this sink.
 Arbiter can then be used to detect if this property is violated at any of the corresponding sinks in the binary.
 
-
 # Overview
+
 <img src="overview.png" alt="overview image" width="100%">
 
-
 # Research paper
+
 We present our approach and the findings of this work in the following research paper:
 
 **Arbiter: Bridging the Static and Dynamic Divide in Vulnerability Discovery on Binary Programs**
 
 Jayakrishna Vadayath, Moritz Eckert, Kyle Zeng, Nicolaas Weideman, Gokulkrishna Praveen Menon, Yanick Fratantonio, Davide Balzarotti, Adam Doupé, Tiffany Bao, Ruoyu Wang, Christophe Hauser and Yan Shoshitaishvili
 
-*In Proceedings of USENIX Security Symposium August 2022,*
+_In Proceedings of USENIX Security Symposium August 2022,_
 
 If you use Arbiter in a scientific publication, we would appreciate citations using the following **Bibtex** entry:
 
@@ -32,42 +32,35 @@ If you use Arbiter in a scientific publication, we would appreciate citations us
 }
 ```
 
-
 [Paper](https://jkrshnmenon.github.io/assets/pdf/arbiter_paper.pdf)
-
 
 [Slides](https://jkrshnmenon.github.io/assets/pdf/arbiter_slides.pdf)
 
-
 # Installation
-Note: Run if you intend to run outside of a docker image otherwise you can skip this step  
+
+Note: Run if you intend to run outside of a docker image otherwise you can skip this step
 
 `sudo python setup.py build && python setup.py install`
 
-
 # Docker image
 
-Note: This program was executed using the ubuntu subsytem for windows  
-
+Note: This program was executed using the ubuntu subsytem for windows
 
 `docker pull 4rbit3r/arbiter:latest`
 
-The coommand below will build and start the docker image  
+The coommand below will build and start the docker image
 
 `make run`
 
 # Running Arbiter
-The following commands will work both in the docker image or if you are running outside of a container with the proper install   
 
+The following commands will work both in the docker image or if you are running outside of a container with the proper install
 
+The command below will run all vuln templates against a given binary and save the logs
 
-The command below will run all vuln templates against a given binary and save the logs  
+`./runall_all_vuln_templates.sh target_binary ./logs`
 
-`./runall_all_vuln_templates.sh target_binary ./logs`  
-
-
-`python ./vuln_templates/run_aribter.py -f vuln_template -t target`  
-
+`python ./vuln_templates/run_aribter.py -f vuln_template -t target`
 
 Note: This is the simpliest way to run arbiter. Passing -h will show other arguements
 
@@ -75,5 +68,9 @@ Note: This is the simpliest way to run arbiter. Passing -h will show other argue
 
 This repository contains some examples of using Arbiter to detect different CWE types in the `examples` directory.
 
-
 It also contains templates that were used for evaluating Arbiter on the Juliet Test suite as well as real world binaries in the `vuln_templates` directory.
+
+# Arbiter Extensions
+
+For the evaluation, the binaries tested are listed under the `evaluation` directory. `logs` contains a bunch of ran binaries and their outputs.  
+Check the `toy_examples` directory for example programs for testing the CWEs in action.

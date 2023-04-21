@@ -1,4 +1,6 @@
 """
+Author: Nicholas Iten
+
 CWE-789: Memory Allocation with Excessive Size Value
 
 This template attempts to find cases where alloc functions are called and the user

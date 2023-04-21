@@ -1,0 +1,114 @@
+WARNING | 2023-03-03 13:02:16,226 | cle.loader | The main binary is a position-independent executable. It is being loaded with a base address of 0x400000.
+DEBUG   | 2023-03-03 13:02:16,228 | arbiter.master_chief.sa_recon | Creating CFG
+Identifying functions:   0%|          | 0/36 [00:00<?, ?it/s]INFO    | 2023-03-03 13:02:16,341 | arbiter.master_chief.sa_recon | Starting recon of 0x401000
+INFO    | 2023-03-03 13:02:16,341 | arbiter.master_chief.sa_recon | Starting recon of 0x401020
+INFO    | 2023-03-03 13:02:16,341 | arbiter.master_chief.sa_recon | Starting recon of 0x40102d
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x401030
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x40103f
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x401040
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x40104f
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x401050
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x40105f
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x401060
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x401070
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x401080
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x401090
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x4010a0
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x4010ce
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x4010cf
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x4010d0
+INFO    | 2023-03-03 13:02:16,342 | arbiter.master_chief.sa_recon | Starting recon of 0x4010f9
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401100
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401139
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401140
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401175
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401179
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401180
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401189
+DEBUG   | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Adding target function main:0x401189
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401293
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x4012a0
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401305
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401310
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x401318
+INFO    | 2023-03-03 13:02:16,343 | arbiter.master_chief.sa_recon | Starting recon of 0x500000
+INFO    | 2023-03-03 13:02:16,344 | arbiter.master_chief.sa_recon | Starting recon of 0x500008
+INFO    | 2023-03-03 13:02:16,344 | arbiter.master_chief.sa_recon | Starting recon of 0x500010
+INFO    | 2023-03-03 13:02:16,344 | arbiter.master_chief.sa_recon | Starting recon of 0x500018
+INFO    | 2023-03-03 13:02:16,344 | arbiter.master_chief.sa_recon | Starting recon of 0x601050
+INFO    | 2023-03-03 13:02:16,344 | arbiter.master_chief.sa_recon | Starting recon of 0x601058
+Identifying functions: 100%|██████████| 36/36 [00:00<00:00, 13300.00it/s]
+Analyzing targets:   0%|          | 0/1 [00:00<?, ?it/s]DEBUG   | 2023-03-03 13:02:16,344 | arbiter.master_chief.sa_advanced | Analysis of function @ 0x401189
+DEBUG   | 2023-03-03 13:02:16,344 | arbiter.master_chief.sa_advanced | Creating CFGEmulated for function @ 0x401189
+DEBUG   | 2023-03-03 13:02:16,398 | arbiter.master_chief.sa_advanced | Creating DDG for function @ 0x401189 (call_depth=1)
+DEBUG   | 2023-03-03 13:02:16,413 | arbiter.master_chief.sa_advanced | Creating CDG for function @ 0x401189
+DEBUG   | 2023-03-03 13:02:16,414 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x40125c
+DEBUG   | 2023-03-03 13:02:16,416 | arbiter.master_chief.sa_advanced | Starting back tracking for 0x401280
+INFO    | 2023-03-03 13:02:16,417 | arbiter.master_chief.sa_advanced | 2 sinks in function @ 0x401189
+Analyzing targets: 100%|██████████| 1/1 [00:00<00:00, 13.76it/s]
+Exploring targets:   0%|          | 0/1 [00:00<?, ?it/s]
+Exploring nodes in target:   0%|          | 0/2 [00:00<?, ?it/s][ADEBUG   | 2023-03-03 13:02:16,418 | arbiter.master_chief.symbolic_execution | Creating checkpoint states for main
+DEBUG   | 2023-03-03 13:02:16,418 | arbiter.master_chief.symbolic_execution | Adding checkpoint address malloc:0x40119f
+DEBUG   | 2023-03-03 13:02:16,420 | arbiter.master_chief.symbolic_execution | Hooked checkpoint malloc
+DEBUG   | 2023-03-03 13:02:16,420 | arbiter.master_chief.symbolic_execution | Created 1 states
+INFO    | 2023-03-03 13:02:16,420 | arbiter.master_chief.symbolic_execution | Starting exploration 0x40119f => 0x40125c
+DEBUG   | 2023-03-03 13:02:16,421 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-03-03 13:02:21,845 | arbiter.master_chief.symbolic_execution | Found 1 paths; No active paths
+INFO    | 2023-03-03 13:02:21,848 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : free
+DEBUG   | 2023-03-03 13:02:21,851 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+INFO    | 2023-03-03 13:02:21,852 | arbiter.master_chief.symbolic_execution | Satisfied state : 0xffffffffffffffff
+DEBUG   | 2023-03-03 13:02:21,852 | arbiter.master_chief.symbolic_execution | Waiting for watchdog to join
+
+Exploring nodes in target:  50%|█████     | 1/2 [00:05<00:05,  5.43s/it][ADEBUG   | 2023-03-03 13:02:21,852 | arbiter.master_chief.symbolic_execution | Creating checkpoint states for main
+DEBUG   | 2023-03-03 13:02:21,853 | arbiter.master_chief.symbolic_execution | Adding checkpoint address malloc:0x40119f
+DEBUG   | 2023-03-03 13:02:21,854 | arbiter.master_chief.symbolic_execution | Created 1 states
+INFO    | 2023-03-03 13:02:21,855 | arbiter.master_chief.symbolic_execution | Starting exploration 0x40119f => 0x401280
+DEBUG   | 2023-03-03 13:02:21,855 | arbiter.master_chief.symbolic_execution | Watchdog started, waiting for 300s
+DEBUG   | 2023-03-03 13:02:28,247 | arbiter.master_chief.symbolic_execution | Found 1 paths; No active paths
+INFO    | 2023-03-03 13:02:28,250 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : free
+DEBUG   | 2023-03-03 13:02:28,254 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+INFO    | 2023-03-03 13:02:28,255 | arbiter.master_chief.symbolic_execution | Got Unsat
+DEBUG   | 2023-03-03 13:02:28,255 | arbiter.master_chief.symbolic_execution | Found 1 paths
+INFO    | 2023-03-03 13:02:28,258 | arbiter.master_chief.symbolic_execution | Applying constraints for sink : free
+DEBUG   | 2023-03-03 13:02:28,261 | arbiter.master_chief.symbolic_execution | Max used bit : 64
+
+                                                                        [AExploring targets:   0%|          | 0/1 [00:11<?, ?it/s]
+Traceback (most recent call last):
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/state_plugins/solver.py", line 89, in wrapped_f
+    return f(*args, **kwargs)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/state_plugins/solver.py", line 514, in _eval
+    return self._solver.eval(e, n, extra_constraints=self._adjust_constraint_list(extra_constraints), exact=exact)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/claripy/frontend_mixins/concrete_handler_mixin.py", line 7, in eval
+    return super(ConcreteHandlerMixin, self).eval(e, n, **kwargs)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/claripy/frontend_mixins/constraint_filter_mixin.py", line 40, in eval
+    return super(ConstraintFilterMixin, self).eval(e, n, extra_constraints=ec, **kwargs)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/claripy/frontend_mixins/sat_cache_mixin.py", line 52, in eval
+    if self._cached_satness is False: raise UnsatError("cached unsat")
+claripy.errors.UnsatError: cached unsat
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "vuln_templates/run_arbiter.py", line 125, in <module>
+    main(template, target)
+  File "vuln_templates/run_arbiter.py", line 58, in main
+    se.run_all()
+  File "/usr/local/lib/python3.8/dist-packages/arbiter-0.0.1-py3.8.egg/arbiter/master_chief/symbolic_execution.py", line 489, in run_all
+  File "/usr/local/lib/python3.8/dist-packages/arbiter-0.0.1-py3.8.egg/arbiter/master_chief/symbolic_execution.py", line 479, in run_one
+  File "/usr/local/lib/python3.8/dist-packages/arbiter-0.0.1-py3.8.egg/arbiter/master_chief/symbolic_execution.py", line 470, in _execute_one
+  File "/usr/local/lib/python3.8/dist-packages/arbiter-0.0.1-py3.8.egg/arbiter/master_chief/symbolic_execution.py", line 353, in _explore_one
+  File "/usr/local/lib/python3.8/dist-packages/arbiter-0.0.1-py3.8.egg/arbiter/master_chief/symbolic_execution.py", line 272, in _check_state
+  File "/usr/local/lib/python3.8/dist-packages/arbiter-0.0.1-py3.8.egg/arbiter/master_chief/symbolic_execution.py", line 188, in _apply_sz_constraints
+  File "/home/itenpn/SECURITY/arbiter/vuln_templates/CWE415.py", line 16, in apply_constraint
+    input_ptr = state.solver.eval(expr, cast_to=int)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/state_plugins/solver.py", line 761, in eval
+    return self.eval_upto(e, 1, cast_to = cast_to,  **kwargs)[0]
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/state_plugins/solver.py", line 732, in eval_upto
+    cast_vals = [self._cast_to(e, v, cast_to) for v in self._eval(e, n, **kwargs)]
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/state_plugins/solver.py", line 156, in concrete_shortcut_tuple
+    return f(self, *args, **kwargs)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/state_plugins/sim_action_object.py", line 57, in ast_stripper
+    return f(*new_args, **new_kwargs)
+  File "/home/itenpn/.local/lib/python3.8/site-packages/angr/state_plugins/solver.py", line 91, in wrapped_f
+    raise SimUnsatError("Got an unsat result") from e
+angr.errors.SimUnsatError: Got an unsat result
